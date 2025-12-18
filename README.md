@@ -56,3 +56,16 @@ Table created by Python (GitHub has 4 shades plus white, but this can be tweaked
 | 197x |          |           |            |           |          |  0/9/1/6  |  3/2/0/1  | 9/3/2/13 | 7/10/2/10 | 17/1/5/6 |  4/8/5/9  |
 
 Data stored in `.csv`-files. How to parse, how to generate?
+
+## One box per day - 18,000 boxes?
+
+How would it look if you get a colored box for each day of your life? Well, let's have a look, just use GitHub contributions as example for the last 8 years:
+
+![2025](docs/2025.png)
+![2024](docs/2024.png)
+![2023](docs/2023.png)
+![2022](docs/2022.png)
+![2021](docs/2021.png)
+![2020](docs/2020.png)
+![2019](docs/2019.png)
+![2018](docs/2018.png)
