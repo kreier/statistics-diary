@@ -57,6 +57,28 @@ Table created by Python (GitHub has 4 shades plus white, but this can be tweaked
 
 Data stored in `.csv`-files. How to parse, how to generate?
 
+## History
+
+The documents are located at three locations:
+
+- **Quartz** at [https://kreier.github.io/quartz/](https://kreier.github.io/quartz/)
+- **Obsidian** at [https://saiht.de/obsidian](https://saiht.de/obsidian) or diary.saiht.de
+- **Wordpress** at [https://saiht.de/blog](https://saiht.de/blog)
+
+### Obsidian
+
+I use the [Novel word count](https://www.obsidianstats.com/plugins/novel-word-count) Community plugin to determine the size of the whole vault
+
+- 21.12.2025 13.263 words, 50 minutes read with the [Novel word count](https://www.obsidianstats.com/plugins/novel-word-count) Community plugin
+
+|    date    | Blog | Diary | Projects | Travel | Websites | md files | Total words | Total minutes |
+|:----------:|:----:|:-----:|:--------:|:------:|:--------:|:--------:|:-----------:|:-------------:|
+| 2025-12-21 |  541 |  4759 |     2830 |   1714 |     1563 |       36 |       13263 |            51 |
+
+### Wordpress
+
+ - 21.12.2025 93 posts, more statistics follows
+
 ## One box per day - 18,000 boxes?
 
 How would it look if you get a colored box for each day of your life? Well, let's have a look, just use GitHub contributions as example for the last 8 years:
