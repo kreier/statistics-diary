@@ -91,3 +91,9 @@ How would it look if you get a colored box for each day of your life? Well, let'
 ![2020](docs/2020.png)
 ![2019](docs/2019.png)
 ![2018](docs/2018.png)
+
+## Better looking if closer together?
+
+I combined above screenshots into one picture where the results are closer together. An inspiration?
+
+![2018-2025](docs/2025-2018.png)
