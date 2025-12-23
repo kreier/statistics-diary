@@ -1,15 +1,50 @@
-# Statistics for my Diary
+# Statistics for my Diary, Blog and Projects
 
 ![GitHub Release](https://img.shields.io/github/v/release/kreier/statistics-diary)
 ![GitHub License](https://img.shields.io/github/license/kreier/statistics-diary)
 
-Create statistics and visual representations of the frequency of diary entries for projects, travel and my blog.
+Create statistics and visual representations of the frequency of entries into my diary and pages for projects, travel and my blog.
 
-## Examples and inspiration
+## Short summary
 
-Some progress was made with Obsidian, and in time I will copy a lot of information to this markdown diary and repository. While doing so I might add some translation of existing German documentations there.
+- Words: 1,432,423
+- Reading time: 15 hours 4 minutes
+- Documents: 143
+- Images: 132
 
-Planned outlook:
+## Categories and locations
+
+- Obsidian and Quartz **Diary** at [diary.saiht.de](https://diary.saiht.de) has 1,023,452 words that would require 13 hours to read. In total some 83 markdown files. 312 of 18,923 days are documented
+- Wordpress **Blog** at [saiht.de/blog](https://saiht.de/blog) with 104 articles and 42,324 words
+- **Legacy website** of saiht.de at [saiht.de/legacy](https://saiht.de/legacy) with 64 pages, 13,124 words
+- Older projects at **subdomains**, listed at [saiht.de/x](https://saiht.de/x) with 20 subdomains, 35 pages, 1,234 words
+- **GitHub** projects with their website: 170 projects, with the main websites containing 23,234 words
+
+## Details on Obsidian and Quartz
+
+| Category | Markdown files | Files | Folders | Size (Bytes) | Images |   Words   |
+|----------|---------------:|-------|--------:|-------------:|:------:|:---------:|
+| Blog     |            512 |  1731 |      76 |  162,437,617 |     52 |   845,601 |
+| Diary    |             32 |   947 |      35 |   49,929,432 |     16 |    16,452 |
+| Projects |             18 |    18 |       0 |      946,419 |      5 |    84,215 |
+| Travel   |             72 |    72 |       6 |   17,622,758 |     47 |   154,875 |
+| Websites |            444 |   444 |      29 |   21,701,977 |     32 |    20,154 |
+| All      |           1342 |  1342 |      20 |   89,448,124 |    245 | 1,425,754 |
+
+## Clickable Graph
+
+![graph 2025](docs/2025-12-18_GitHub_example.png)
+
+## Details on 156 Github Projects, sorted by Category
+
+### Robotics
+
+- T400 - link, 23 words
+- T500 - link, 24 words
+
+## Procedure, Examples and inspiration
+
+Some progress was made with Obsidian, and in time I will copy a lot of information to this markdown diary and repository. While doing so I might add some translation of existing German documentations there. Further I want to include my Wordpress blog, subdomains and legacy websites.
 
 ## 2025
 
@@ -17,8 +52,6 @@ Planned outlook:
 - Projects: 5
 - Blog: 3
 - Travel: 2
-
-![graph 2025](docs/2025-12-18_GitHub_example.png)
 
 ## 2024
 
