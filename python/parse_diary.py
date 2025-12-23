@@ -1,7 +1,7 @@
 # Parse the local copies of my diaries and create some statistics from it
 # Diary 1: /quartz/content
 # Diary 2: /obsidian/saiht
-# Diary 3: /data/wp_export.csv
+# Diary 3: /data/wp_data.csv
 #
 # Started: 21.12.2025
 
@@ -104,7 +104,7 @@ def analyze_csv(csv_path="../data/wp_data.csv"):
 
 
 def main():
-    # Replace these with your diary folder paths
+    # The two locations of my diaries
     diary1 = r"../../quartz/content"
     diary2 = r"../../obsidian/saiht"
 
