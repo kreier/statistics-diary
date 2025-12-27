@@ -2,6 +2,7 @@
 
 ![GitHub Release](https://img.shields.io/github/v/release/kreier/statistics-diary)
 ![GitHub License](https://img.shields.io/github/license/kreier/statistics-diary)
+[![Update Version](https://github.com/kreier/statistics-diary/actions/workflows/update.yml/badge.svg)](https://github.com/kreier/statistics-diary/actions/workflows/update.yml)
 
 Create statistics and visual representations of the frequency of entries into my diary and pages for projects, travel and my blog.
 
