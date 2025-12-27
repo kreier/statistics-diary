@@ -4,8 +4,8 @@ from datetime import datetime
 
 
 # Paths
-iteration_file = Path("../data/iteration.json")
-version_file = Path("../data/version.txt")
+iteration_file = Path("data/iteration.json")
+version_file = Path("data/version.txt")
 
 
 # Read current iteration
