@@ -131,3 +131,53 @@ How would it look if you get a colored box for each day of your life? Well, let'
 I combined above screenshots into one picture where the results are closer together. An inspiration?
 
 ![2018-2025](docs/2025-2018.png)
+
+## 19000 days till 10/10/2027
+
+On this day I will have lived 19000 days on earth, and the graduation from SDW will be 17 years ago. How would an overview of all these days look like? Here is a preliminary visual:
+
+![19000](docs/19000.png)
+
+## Workflow
+
+### Static data
+
+Only from time to time I will update the following values:
+
+- /data/details_wordpress.csv with all articles written
+- /data/details_legacy.csv with all the articles written
+- /data/details_subdomain.csv with all the articles written
+- /data/details_github.csv with all the repositories and their main README.md of content
+
+
+### Automatic run
+
+Each push and successful run from quartz will trigger `python/update_statistics.py`. The Github Action will check out all data. All static data from above will have been processed already. No need to parse them again.
+
+But I need a copy of Obsidian and parse it:
+
+- **Blog**, read the frontmatter entry for the date in `date`
+- **Diary**, parse 1975.md to 2026.md for DD.MM.YYYY and count the day if it is bold
+- **Projects**, maybe one day a copy of each README for each Github project? But that's two locations to keep updated
+- **Travel**, the frontmatter has two entries `created` for when the holiday started and `updated` when it ended. Can it be parsed?
+- Websites should be treated as projects, and be counted there too
+
+For the clickable `STAT_GRAPHS` I need to know each day and number of contributions for the 4 categories. And the tooltip could include a link to the article of the day in Blog, Diary, Travel or Project.
+
+### Parts to update in README.md
+
+With some HTML markers and regular expressions parts of the README.md are prepared to be updated by the update python program. The following labels are in there:
+
+- STAT_SUMMARY
+- STAT_CATEGORY_LOCATIONS
+- STAT_DETAILS_OBSIDIAN
+- STAT_GRAPHS
+- STAT_GITHUB
+
+### Updated files in this repository
+
+Obviously the results should be written back to the repository. We need the file names for the Github Action `github/workflows/update.yml` that should receive a push `git add data/iteration.json data/version.txt`:
+
+- data/iteration.json
+- data/version.txt
+- README.md
