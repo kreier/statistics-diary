@@ -2,8 +2,6 @@ name: Update Version
 
 on:
   workflow_dispatch:   # manual trigger
-  schedule:            # optional: run daily
-    - cron: "0 0 * * *"
   repository_dispatch:
     types: [trigger-from-repo-quartz]
 
