@@ -126,6 +126,8 @@ How would it look if you get a colored box for each day of your life? Well, let'
 ![2019](docs/2019.png)
 ![2018](docs/2018.png)
 
+To calculate: Each box is 10x10 pixel with 3 pixel whitespace between them. This results in a height of 7x10 + 6*3 = 88 pixel per year and a width of (52+1+1)*10 + 53*3 = 699 pixel.
+
 ## Better looking if closer together?
 
 I combined above screenshots into one picture where the results are closer together. An inspiration?
@@ -137,6 +139,10 @@ I combined above screenshots into one picture where the results are closer toget
 On this day I will have lived 19000 days on earth, and the graduation from SDW will be 17 years ago. How would an overview of all these days look like? Here is a preliminary visual:
 
 ![19000](docs/19000.png)
+
+## Or  maybe Statistics for 21639 days
+
+![21639 days](https://kreier.github.io/quartz/Projects/GitHub/files_github/2026-01-02_21639.png)
 
 ## Workflow
 
