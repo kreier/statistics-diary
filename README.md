@@ -8,35 +8,59 @@ Create statistics and visual representations of the frequency of entries into my
 
 ## Short summary
 
-- Words: 1,432,423
-- Reading time: 15 hours 4 minutes
-- Documents: 143
+- Documents or pages: 143
+- Amount of words: 1,432,423
+- Required reading time: 15 hours 4 minutes
 - Images: 132
 
 ## Categories and locations
 
-- Obsidian and Quartz **Diary** at [diary.saiht.de](https://diary.saiht.de) has 1,023,452 words that would require 13 hours to read. In total some 83 markdown files. 312 of 18,923 days are documented
-- Wordpress **Blog** at [saiht.de/blog](https://saiht.de/blog) with 104 articles and 42,324 words
-- **Legacy website** of saiht.de at [saiht.de/legacy](https://saiht.de/legacy) with 64 pages, 13,124 words
-- Older projects at **subdomains**, listed at [saiht.de/x](https://saiht.de/x) with 20 subdomains, 35 pages, 1,234 words
-- **GitHub** projects with their website: 170 projects, with the main websites containing 23,234 words
-
-## Details on Obsidian and Quartz
-
-| Category | Markdown files | Files | Folders | Size (Bytes) | Images |   Words   |
-|----------|---------------:|-------|--------:|-------------:|:------:|:---------:|
-| Blog     |            512 |  1731 |      76 |  162,437,617 |     52 |   845,601 |
-| Diary    |             32 |   947 |      35 |   49,929,432 |     16 |    16,452 |
-| Projects |             18 |    18 |       0 |      946,419 |      5 |    84,215 |
-| Travel   |             72 |    72 |       6 |   17,622,758 |     47 |   154,875 |
-| Websites |            444 |   444 |      29 |   21,701,977 |     32 |    20,154 |
-| All      |           1342 |  1342 |      20 |   89,448,124 |    245 | 1,425,754 |
+1. Obsidian and Quartz **Diary** at [diary.saiht.de](https://diary.saiht.de) has 1,023,452 words that would require 13 hours to read. In total some 83 markdown files. 312 of 18,923 days are documented
+2. Wordpress **Blog** at [saiht.de/blog](https://saiht.de/blog) with 104 articles and 42,324 words
+3. **Legacy website** of saiht.de at [saiht.de/legacy](https://saiht.de/legacy) with 64 pages, 13,124 words
+4. Older projects at **subdomains**, listed at [saiht.de/x](https://saiht.de/x) with 20 subdomains, 35 pages, 1,234 words
+5. **GitHub** projects with their website: 170 projects, with the main websites containing 23,234 words
 
 ## Clickable Graph
 
 ![graph 2025](docs/2025-12-18_GitHub_example.png)
 
-## Details on 156 Github Projects, sorted by Category
+## Table on Categories and Locations
+
+| Category          | Pages | Words | Time to read | Images |
+|-------------------|------:|-------|-------------:|:------:|
+| 1) Diary          |    92 |  1731 |         2h10 |     52 |
+| 2) Wordpress Blog |    80 |   947 |         0h50 |     16 |
+| 3) Legacy Website |    56 |    18 |         1h10 |      5 |
+| 4) Subdomains     |    15 |    72 |         2h10 |     47 |
+| 5) Github         |   170 |   444 |         1h10 |     32 |
+| All               |  1342 |  1342 |        11h20 |    245 |
+
+## (1) Details on Obsidian and Quartz
+
+|   Category  | Markdown files | Files | Folders | Size (Bytes) | Images |   Words   |
+|-------------|---------------:|------:|--------:|-------------:|:------:|----------:|
+| Blog 🟥     |            512 |  1731 |      76 |  162,437,617 |     52 |   845,601 |
+| Diary 🟩    |             32 |   947 |      35 |   49,929,432 |     16 |    16,452 |
+| Projects 🟦 |             18 |    18 |       0 |      946,419 |      5 |    84,215 |
+| Travel 🟨   |             72 |    72 |       6 |   17,622,758 |     47 |   154,875 |
+| Websites 🟦 |            444 |   444 |      29 |   21,701,977 |     32 |    20,154 |
+| All         |           1342 |  1342 |      20 |   89,448,124 |    245 | 1,425,754 |
+
+
+
+## (5) Details on 156 Github Projects, sorted by Category
+
+I ordered my repositories into the following categories:
+
+- Mathematics
+- Robotics
+- School
+- Physics
+- Automation
+- Curiosity
+
+Metrics I'm interested in: title (repository name), created, size, main language, files, folders, commits. See the github subfolder: [kreier.github.io/statistics-diary/github](https://kreier.github.io/statistics-diary/github/)
 
 ### Robotics
 
@@ -75,8 +99,8 @@ Maximum value:
 
 - Diary: 31 - January 1997 🟩 
 - Projects: 15 - March 2006 🟦
-- Travel: 28 - August 2024 🟥
-- Blog: 5 - October 2009 🟨
+- Travel: 28 - August 2024 🟨
+- Blog: 5 - October 2009 🟥
 
 Table created by Python (GitHub has 4 shades plus white, but this can be tweaked once we have answers):
 
@@ -105,11 +129,12 @@ I use the [Novel word count](https://www.obsidianstats.com/plugins/novel-word-co
 
 - 21.12.2025 13.263 words, 50 minutes read with the [Novel word count](https://www.obsidianstats.com/plugins/novel-word-count) Community plugin
 
-|    date    | Blog | Diary | Projects | Travel | Websites | md files | Total words | Total minutes |
-|:----------:|:----:|:-----:|:--------:|:------:|:--------:|:--------:|:-----------:|:-------------:|
-| 2025-12-21 |  541 |  4759 |     2830 |   1714 |     1563 |       36 |       13263 |            51 |
+|    date    | Blog | Diary | Projects | Travel | Websites | md files | Total words | Total time |
+|:----------:|:----:|:-----:|:--------:|:------:|:--------:|:--------:|:-----------:|:----------:|
+| 2025-12-21 |  541 |  4759 |     2830 |   1714 |     1563 |       36 |      13,263 |       0h51 |
+| 2026-01-19 | 1408 | 27580 |     4366 |   2216 |     1820 |       92 |      39,787 |       2h30 |
 
-### Wordpress
+### (2) Wordpress
 
  - 21.12.2025 93 posts, more statistics follows
 
@@ -146,15 +171,26 @@ On this day I will have lived 19000 days on earth, and the graduation from SDW w
 
 ## Workflow
 
-### Static data
+Ultimately we only want the summary numbers for 4 metrics: pages, words, time-to-read and images. This is collected from 5 places:
+
+1) **Diary** - Obsidian vault, rendered for the web with Quartz, containing 🟩 Diary, 🟨 Travel, 🟦 Projects and another 🟥 Blog
+2) **Blog** or Wordpress - using PHP and MariaDB on [saiht.de/blog](https://saiht.de/blog/) 🟥 Wordpress Blog
+3) **Legacy** - historic pages from saiht.de on [saiht.de/legacy](https://saiht.de/legacy/) 🟦 Projects
+4) **Subdomains** of saiht.de - the 10 smaller projects, see [saiht.de/x](https://saiht.de/x/) 🟦
+5) **GitHub** - all of them have a Github Page, the metrics are taken from the webpage 🟦
+
+### Static data - sources 2 to 5
 
 Only from time to time I will update the following values:
 
-- /data/details_wordpress.csv with all articles written
-- /data/details_legacy.csv with all the articles written
-- /data/details_subdomain.csv with all the articles written
-- /data/details_github.csv with all the repositories and their main README.md of content
+- /data/details_wordpress.csv with all articles written 🟥
+- /data/details_legacy.csv with all the articles written 🟦
+- /data/details_subdomain.csv with all the articles written 🟦
+- /data/details_github.csv with all the repositories and their main README.md of content 🟦Github: xx_name_xx created
 
+The update program is `/python/update_details.py`. It parses above 4 files and updates the `/data/summary.csv`. Each static data file can be updated with a respective `/data/update_xx.py` for the 4 sources.
+
+For the clickable graphics I need a date, title and link. Condensed to `/data/data_graph_wordpress.csv` and the 3 other files.
 
 ### Automatic run
 
@@ -162,11 +198,11 @@ Each push and successful run from quartz will trigger `python/update_statistics.
 
 But I need a copy of Obsidian and parse it:
 
-- **Blog**, read the frontmatter entry for the date in `date`
-- **Diary**, parse 1975.md to 2026.md for DD.MM.YYYY and count the day if it is bold
-- **Projects**, maybe one day a copy of each README for each Github project? But that's two locations to keep updated
-- **Travel**, the frontmatter has two entries `created` for when the holiday started and `updated` when it ended. Can it be parsed?
-- Websites should be treated as projects, and be counted there too
+- **Blog**, read the frontmatter entry for the date in `date`. It's a second source for 🟥 Blog
+- **Diary**, parse 1975.md to 2026.md for DD.MM.YYYY and count the day if it is bold, for 🟩 Diary
+- **Projects**, maybe one day a copy of each README for each Github project? But that's two locations to keep updated 🟦 Projects
+- **Travel**, the frontmatter has two entries `created` for when the holiday started and `updated` when it ended. Can it be parsed? Full color for start, dimmed between: 🟨 Travel
+- **Websites** should be treated as projects, and be counted there too. so 🟦 Projects
 
 For the clickable `STAT_GRAPHS` I need to know each day and number of contributions for the 4 categories. And the tooltip could include a link to the article of the day in Blog, Diary, Travel or Project.
 
@@ -176,9 +212,9 @@ With some HTML markers and regular expressions parts of the README.md are prepar
 
 - STAT_SUMMARY
 - STAT_CATEGORY_LOCATIONS
+- STAT_GRAPHS (last 10 years?)
 - STAT_DETAILS_OBSIDIAN
-- STAT_GRAPHS
-- STAT_GITHUB
+- STAT_GITHUB (include categories)
 
 ### Updated files in this repository
 
