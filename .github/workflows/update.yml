@@ -32,5 +32,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/iteration.json data/version.txt README.md
-          git commit -m "Increment iteration and update version" || echo "No changes to commit"
+          git commit -m "Update statistics for diary, projects and blog" || echo "No changes to commit"
           git push origin HEAD:${{ github.ref }}
