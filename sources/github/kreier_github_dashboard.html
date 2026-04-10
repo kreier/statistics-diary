@@ -1,0 +1,224 @@
+
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-sans); }
+.grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 1.5rem; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 1.5rem; }
+.metric { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 12px 14px; }
+.metric-label { font-size: 12px; color: var(--color-text-secondary); margin-bottom: 4px; }
+.metric-value { font-size: 24px; font-weight: 500; color: var(--color-text-primary); }
+.metric-sub { font-size: 12px; color: var(--color-text-tertiary); margin-top: 2px; }
+.card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; }
+.card-title { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+.section-title { font-size: 14px; font-weight: 500; color: var(--color-text-secondary); margin: 1.5rem 0 0.75rem; letter-spacing: 0.04em; text-transform: uppercase; }
+.lang-bar-wrap { display: flex; align-items: center; gap: 8px; margin-bottom: 7px; }
+.lang-name { font-size: 13px; color: var(--color-text-primary); min-width: 110px; }
+.lang-bar-bg { flex: 1; height: 8px; background: var(--color-background-secondary); border-radius: 4px; overflow: hidden; }
+.lang-bar { height: 100%; border-radius: 4px; }
+.lang-count { font-size: 12px; color: var(--color-text-secondary); min-width: 24px; text-align: right; }
+.repo-row { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 0.5px solid var(--color-border-tertiary); }
+.repo-row:last-child { border-bottom: none; }
+.repo-name { font-size: 13px; font-weight: 500; color: var(--color-text-primary); }
+.repo-name a { color: inherit; text-decoration: none; }
+.repo-name a:hover { text-decoration: underline; }
+.repo-desc { font-size: 12px; color: var(--color-text-secondary); margin-top: 2px; }
+.stars { font-size: 12px; font-weight: 500; color: #BA7517; min-width: 36px; text-align: right; display: flex; align-items: center; justify-content: flex-end; gap: 3px; }
+.star-icon { font-size: 11px; }
+.badge { display: inline-block; font-size: 11px; padding: 2px 7px; border-radius: 10px; margin-right: 4px; }
+.badge-lang { background: #E6F1FB; color: #0C447C; }
+.badge-fork { background: #F1EFE8; color: #5F5E5A; }
+.badge-arch { background: #FAEEDA; color: #633806; }
+.badge-active { background: #EAF3DE; color: #3B6D11; }
+.badge-inactive { background: #FCEBEB; color: #791F1F; }
+.category-header { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); border-bottom: 0.5px solid var(--color-border-tertiary); padding-bottom: 6px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between; }
+.cat-count { font-size: 12px; background: var(--color-background-secondary); border-radius: 10px; padding: 2px 8px; color: var(--color-text-secondary); }
+.stacked-bar { display: flex; height: 20px; border-radius: 4px; overflow: hidden; width: 100%; margin-bottom: 8px; }
+.stacked-seg { height: 100%; transition: opacity 0.15s; }
+.legend-row { display: flex; flex-wrap: wrap; gap: 10px; font-size: 12px; color: var(--color-text-secondary); margin-top: 4px; }
+.legend-dot { width: 10px; height: 10px; border-radius: 2px; display: inline-block; margin-right: 4px; vertical-align: middle; }
+</style>
+
+<div style="padding: 1rem 0;">
+
+<div class="grid4">
+  <div class="metric">
+    <div class="metric-label">Total repos</div>
+    <div class="metric-value">184</div>
+    <div class="metric-sub">139 original · 45 forks</div>
+  </div>
+  <div class="metric">
+    <div class="metric-label">Total stars</div>
+    <div class="metric-value">182</div>
+    <div class="metric-sub">across all repos</div>
+  </div>
+  <div class="metric">
+    <div class="metric-label">Active repos</div>
+    <div class="metric-value">76</div>
+    <div class="metric-sub">updated last 12 months</div>
+  </div>
+  <div class="metric">
+    <div class="metric-label">Languages used</div>
+    <div class="metric-value">17</div>
+    <div class="metric-sub">Python leads with 56</div>
+  </div>
+</div>
+
+<div class="grid2">
+  <div class="card">
+    <div class="card-title">Composition</div>
+    <div class="stacked-bar">
+      <div class="stacked-seg" style="width:41.3%; background:#378ADD;" title="Python 56"></div>
+      <div class="stacked-seg" style="width:18.4%; background:#D85A30;" title="C++ 25"></div>
+      <div class="stacked-seg" style="width:11%; background:#1D9E75;" title="Jupyter 15"></div>
+      <div class="stacked-seg" style="width:10.3%; background:#BA7517;" title="JS 14"></div>
+      <div class="stacked-seg" style="width:8.8%; background:#7F77DD;" title="C 12"></div>
+      <div class="stacked-seg" style="width:10.2%; background:#888780;" title="Other 22"></div>
+    </div>
+    <div class="legend-row">
+      <span><span class="legend-dot" style="background:#378ADD;"></span>Python 56</span>
+      <span><span class="legend-dot" style="background:#D85A30;"></span>C++ 25</span>
+      <span><span class="legend-dot" style="background:#1D9E75;"></span>Jupyter 15</span>
+      <span><span class="legend-dot" style="background:#BA7517;"></span>JS 14</span>
+      <span><span class="legend-dot" style="background:#7F77DD;"></span>C 12</span>
+      <span><span class="legend-dot" style="background:#888780;"></span>Other 22</span>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-title">Activity split</div>
+    <div class="stacked-bar">
+      <div class="stacked-seg" style="width:41.3%; background:#639922;" title="Active 76"></div>
+      <div class="stacked-seg" style="width:58.7%; background:#D3D1C7;" title="Inactive 108"></div>
+    </div>
+    <div class="legend-row">
+      <span><span class="legend-dot" style="background:#639922;"></span>Active ≤12 mo: 76</span>
+      <span><span class="legend-dot" style="background:#D3D1C7;"></span>Dormant >12 mo: 108</span>
+    </div>
+    <div style="margin-top: 10px; display:flex; gap:14px;">
+      <div>
+        <div class="metric-label">Original</div>
+        <div style="font-size:18px; font-weight:500;">139</div>
+      </div>
+      <div>
+        <div class="metric-label">Forks</div>
+        <div style="font-size:18px; font-weight:500;">45</div>
+      </div>
+      <div>
+        <div class="metric-label">Private</div>
+        <div style="font-size:18px; font-weight:500;">5</div>
+      </div>
+      <div>
+        <div class="metric-label">Archived</div>
+        <div style="font-size:18px; font-weight:500;">0</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card" style="margin-bottom: 1.5rem;">
+  <div class="card-title">Top starred repos</div>
+  <div class="repo-row">
+    <div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/benchmark" target="_blank">benchmark</a></div><div class="repo-desc">CPU speed testing across hardware generations</div></div>
+    <span class="badge badge-lang">C</span><div class="stars">52 ★</div>
+  </div>
+  <div class="repo-row">
+    <div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/t-display" target="_blank">t-display</a></div><div class="repo-desc">ESP32 with display, Python and C</div></div>
+    <span class="badge badge-lang">C</span><div class="stars">30 ★</div>
+  </div>
+  <div class="repo-row">
+    <div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/cru" target="_blank">cru</a></div><div class="repo-desc">Custom Resolution Utility (HDMI/EDID tool for Windows)</div></div>
+    <span class="badge badge-lang">C++</span><div class="stars">21 ★</div>
+  </div>
+  <div class="repo-row">
+    <div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/llama.cpp-jetson" target="_blank">llama.cpp-jetson</a></div><div class="repo-desc">llama.cpp with GPU on Jetson Nano 2019</div></div>
+    <span class="badge badge-lang">CUDA</span><div class="stars">17 ★</div>
+  </div>
+  <div class="repo-row">
+    <div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/ESP32" target="_blank">ESP32</a></div><div class="repo-desc">BLE, WiFi and robotics projects</div></div>
+    <span class="badge badge-lang">C++</span><div class="stars">12 ★</div>
+  </div>
+  <div class="repo-row">
+    <div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/timeline" target="_blank">timeline</a></div><div class="repo-desc">Human history overview as a PDF graph</div></div>
+    <span class="badge badge-lang">Python</span><div class="stars">8 ★</div>
+  </div>
+  <div class="repo-row">
+    <div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/actuator" target="_blank">actuator</a></div><div class="repo-desc">Robot actuator module</div></div>
+    <span class="badge badge-lang">Jupyter</span><div class="stars">7 ★</div>
+  </div>
+  <div class="repo-row">
+    <div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/t-picoc3" target="_blank">t-picoc3</a></div><div class="repo-desc">UI toolset for T-PicoC3 running CircuitPython</div></div>
+    <span class="badge badge-lang">Python</span><div class="stars">6 ★</div>
+  </div>
+</div>
+
+<div class="grid2">
+
+  <div class="card">
+    <div class="category-header">Embedded / IoT / Hardware <span class="cat-count">~40</span></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/ESP32">ESP32</a></div><div class="repo-desc">BLE, WiFi, robotics on DEVKIT V1</div></div><div class="stars">12 ★</div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/t-display">t-display</a></div><div class="repo-desc">ESP32 with TFT display</div></div><div class="stars">30 ★</div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/t-picoc3">t-picoc3</a></div><div class="repo-desc">T-PicoC3 CircuitPython toolset</div></div><div class="stars">6 ★</div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/solarmeter">solarmeter</a></div><div class="repo-desc">Solar panel power over weeks</div></div><div class="stars">2 ★</div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">ESP8266, rp2040, rp2350, picow, bluefruit, clue, 128x64, aqi, rfid, arduino, qtpy-oled, AI-C3, huidu_hd-wf4…</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="category-header">Robotics <span class="cat-count">~20</span></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/actuator">actuator</a></div><div class="repo-desc">Robot actuator module</div></div><div class="stars">7 ★</div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">T100–T410 series</div><div class="repo-desc">Robot car generations 1.0 → 4.1</div></div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">T80, T300, asa, asa2, asa3</div><div class="repo-desc">AISVN after-school robotics</div></div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">rvr, gocart23, frc, aisvn, remote</div><div class="repo-desc">Sphero RVR, FRC, BLE remote</div></div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">vex, vex2022, me2arm, jetson-car</div><div class="repo-desc">VEX team, robot arm, Jetson car</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="category-header">AI / ML / LLM <span class="cat-count">~12</span></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/llama.cpp-jetson">llama.cpp-jetson</a></div><div class="repo-desc">llama.cpp with CUDA on Jetson Nano</div></div><div class="stars">17 ★</div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/llama.cpp-jetson.nano">llama.cpp-jetson.nano</a></div><div class="repo-desc">Install guide + scripts</div></div><div class="stars">5 ★</div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">ml, nano-gpt, click-classifier, unsloth, openclaude, open-claude-code</div><div class="repo-desc">TF2, GPT training, fine-tuning, LLM tools</div></div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">cuda, DeepReinforcementLearning</div><div class="repo-desc">CUDA programming + AlphaZero replica</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="category-header">Benchmarking / Performance <span class="cat-count">~8</span></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/benchmark">benchmark</a></div><div class="repo-desc">CPU speed across hardware generations</div></div><div class="stars">52 ★</div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">prime, communicationspeed, coremark, nbench, CoreMark-RP2040, clpeak, jetson_nano_overclock</div><div class="repo-desc">Prime sieves, CoreMark, OpenCL peak, comms speed</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="category-header">Data / Science / Jupyter <span class="cat-count">~15</span></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/timeline">timeline</a></div><div class="repo-desc">Human history as a PDF graph</div></div><div class="stars">8 ★</div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/dat.bike">dat.bike</a></div><div class="repo-desc">Vietnamese e-bike data & calculations</div></div><div class="stars">2 ★</div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">impact, keyboard, labs, heatpipe, csv-reader-pressures, statistics-diary, movies, study, physics</div><div class="repo-desc">Physics, measurement, data exploration</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="category-header">Tools / Utilities <span class="cat-count">~15</span></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name"><a href="https://github.com/kreier/cru">cru</a></div><div class="repo-desc">Custom Resolution Utility (Windows)</div></div><div class="stars">21 ★</div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">homelab, obsidian, bilder, calendar, dictionary, finanzen, hacks, wob, docs, saiht.de, saiht-parser</div><div class="repo-desc">Homelab docs, image tools, personal org</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="category-header">Teaching / Education <span class="cat-count">~15</span></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">aa, aa2023, csp2022, java23, ls, vex, vex2022, frc, reactivate23</div><div class="repo-desc">SSIS CS & robotics courses</div></div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">hello_world, p5js, circular_art_2022, click-classifier, gps-relativity</div><div class="repo-desc">Student intro projects</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="category-header">Web / Frontend <span class="cat-count">~12</span></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">kreier.github.io, saiht.de, hv.io.vn, igshcmc, tl, temp.hofkoh.de</div><div class="repo-desc">Personal sites & blogs</div></div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">swagger, ml (TypeScript), quartz, logo, tripitaka</div><div class="repo-desc">APIs, static sites, text analysis</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="category-header">Mobile (iOS / Android) <span class="cat-count">~12</span></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">Swift repos: swift2021, badge, sandwich, mandelbrot-ios, temp_ios, littleCV, Food-PMH, shell2022, SwiftUI_Landmarks</div></div></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">Android: Test24, WifiCar24, android-compose-codelabs, location24, beschleunigungssensor</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="category-header">Math / Creative <span class="cat-count">~8</span></div>
+    <div class="repo-row"><div style="flex:1"><div class="repo-name">mandelbrot-basic, collatz, prime_gaps_line, benfords_law, circle_k, p5js, promised-seed, language-families</div><div class="repo-desc">Fractals, number theory, generative art, lineage viz</div></div></div>
+  </div>
+
+</div>
+</div>
