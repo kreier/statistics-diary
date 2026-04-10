@@ -4,7 +4,7 @@
 ![GitHub License](https://img.shields.io/github/license/kreier/statistics-diary)
 [![Update Version](https://github.com/kreier/statistics-diary/actions/workflows/update.yml/badge.svg)](https://github.com/kreier/statistics-diary/actions/workflows/update.yml)
 
-This [repository](https://github.com/kreier/statistics-diary) creates statistics and visual representations of the frequency of entries into my diary and pages for projects, travel and my blog.
+This [repository](https://github.com/kreier/statistics-diary) creates a visual representations and some statistics of my entries into diary, pages for projects, travel and my blog over the last decades.
 
 <!-- START:version -->
 Version: v2026.03.26.60
@@ -12,33 +12,47 @@ Version: v2026.03.26.60
 
 ## Short summary
 
-- Documents or pages: 143
-- Amount of words: 1,432,423
-- Required reading time: 15 hours 4 minutes
-- Images: 132
+- Documents or projects: 143
+- Individual pages: 315
+- Days documented: 1132 of 18345 (6.17%)
+- Total words: 1,432,423
+- Total sentences: 3,154
+- Total images: 132
+- Required total reading time: 15 hours 4 minutes
 
-## Categories and locations
+## Detailed overview
 
-1. Obsidian and Quartz **Diary** at [diary.saiht.de](https://diary.saiht.de) has 1,023,452 words that would require 13 hours to read. In total some 83 markdown files. 312 of 18,923 days are documented
-2. Wordpress **Blog** at [saiht.de/blog](https://saiht.de/blog) with 104 articles and 42,324 words
-3. **Legacy website** of saiht.de at [saiht.de/legacy](https://saiht.de/legacy) with 64 pages, 13,124 words
+1. Obsidian and Quartz **diary** at [diary.saiht.de](https://diary.saiht.de) has 1,023,452 words that would require 13 hours to read. In total some 83 markdown files. 312 of 18,923 days are documented.
+   - Diary 🟩: 123 days are documented
+   - Blog 🟥: 82 entries
+   - Projects 🟦: 15 documented
+   - Travel 🟨: 12 countries and 42 days
+   - Websites 🟦: 4 major ones and 10 abandoned ones
+2. Wordpress **blog** at [saiht.de/blog](https://saiht.de/blog) with 104 articles and 42,324 words
+3. **Legacy** website of saiht.de at [saiht.de/legacy](https://saiht.de/legacy) with 64 pages, 13,124 words
 4. Older projects at **subdomains**, listed at [saiht.de/x](https://saiht.de/x) with 20 subdomains, 35 pages, 1,234 words
-5. **GitHub** projects with their website: 170 projects, with the main websites containing 23,234 words
+5. GitHub projects with **github** commits: 170 projects, with the main websites containing 23,234 words
+6. Websites to some github projects as **github_websites** for 130 projects, containing 14,874 word
+7. Additional websites as **google_sites** with 14 sites, containing 1,423 words
 
-## Clickable Graph
+## Heatmap
+
+<img src="docs/example_2025.svg" width="100%">
 
 ![graph 2025](docs/2025-12-18_GitHub_example.png)
 
 ## Table on Categories and Locations
 
-| Category          | Pages | Words | Time to read | Images |
-|-------------------|------:|-------|-------------:|:------:|
-| 1) Diary          |    92 |  1731 |         2h10 |     52 |
-| 2) Wordpress Blog |    80 |   947 |         0h50 |     16 |
-| 3) Legacy Website |    56 |    18 |         1h10 |      5 |
-| 4) Subdomains     |    15 |    72 |         2h10 |     47 |
-| 5) Github         |   170 |   444 |         1h10 |     32 |
-| All               |  1342 |  1342 |        11h20 |    245 |
+| Category          | Sites | Pages | Words | Time to read | Images |
+|-------------------|------:|------:|------:|-------------:|:------:|
+| 1) diary          |    92 |    92 |  1731 |         2h13 |     52 |
+| 2) blog           |    80 |    80 |   947 |         0h51 |     16 |
+| 3) legacy         |    56 |    56 |    18 |         1h27 |      5 |
+| 4) subdomains     |    15 |    15 |    72 |         2h15 |     47 |
+| 5) github         |   170 |  9457 |  3197 |         8h18 |    163 |
+| 6) github_websites |  124 |   184 |   444 |         1h14 |     32 |
+| 7) google_sites   |    14 |    38 |   897 |         2h36 |     76 |
+| All               |  1342 |  1342 |  1342 |        11h20 |    245 |
 
 ## (1) Details on Obsidian and Quartz
 
