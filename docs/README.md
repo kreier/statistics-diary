@@ -13,6 +13,8 @@ Planned outlook:
 
 ![graph 2025](2025-12-18_GitHub_example.png)
 
+![SVG file](./example_2025.svg)
+
 ## 2024
 
 - Highlights with links?
