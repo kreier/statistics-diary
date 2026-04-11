@@ -191,13 +191,19 @@ class RepoManager(App):
             label = f"{cat['name']} ({cat['id']})"
             list_view.append(ListItem(Label(label), id=f"cat_{cat['id']}"))
 
+    def _safe_id(self, prefix, name):
+        """Creates a Textual-safe ID by replacing invalid characters with underscores."""
+        safe_name = name.replace(".", "_")
+        return f"{prefix}_{safe_name}"
+
     def refresh_repos(self, category_id):
         list_view = self.query_one("#repo_list", ListView)
         list_view.clear()
         cat_repos = [r for r in self.repos if self.repo_mapping.get(r['name']) == category_id]
         cat_repos.sort(key=lambda x: x['name'])
         for repo in cat_repos:
-            list_view.append(ListItem(Label(repo['name']), id=f"repo_{repo['name']}"))
+            repo_name = repo['name']
+            list_view.append(ListItem(Label(repo_name), id=self._safe_id("repo", repo_name)))
 
         self.query_one("#stats", CategoryStats).update_stats(category_id, self.repos, self.repo_mapping)
 
@@ -211,7 +217,8 @@ class RepoManager(App):
     @on(ListView.Selected, "#repo_list")
     def repo_selected(self, event):
         if event.item and event.item.id:
-            repo_name = event.item.id.replace("repo_", "")
+            # Reconstruct repo_name from the Label since ID might be transformed
+            repo_name = str(event.item.query_one(Label).renderable)
             self.action_assign_repo(repo_name)
 
     def action_assign_repo(self, repo_name):
