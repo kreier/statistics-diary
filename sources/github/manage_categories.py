@@ -218,7 +218,7 @@ class RepoManager(App):
     def repo_selected(self, event):
         if event.item and event.item.id:
             # Reconstruct repo_name from the Label since ID might be transformed
-            repo_name = str(event.item.query_one(Label).renderable)
+            repo_name = event.item.query_one(Label).render().plain
             self.action_assign_repo(repo_name)
 
     def action_assign_repo(self, repo_name):
