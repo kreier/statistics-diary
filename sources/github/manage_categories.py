@@ -122,7 +122,9 @@ class RepoManager(App):
         column-span: 2;
         align: center middle;
         height: 5;
-        gap: 2;
+    }
+    .buttons Button {
+        margin: 0 1;
     }
     ListItem {
         padding: 1;
