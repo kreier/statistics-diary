@@ -9,6 +9,29 @@ from textual import on, work
 REPOS_PATH = 'sources/github/repos.json'
 CATEGORIES_PATH = 'sources/github/repository_categories.json'
 
+class CategoryListItem(ListItem):
+    def __init__(self, cat_id: str, cat_name: str):
+        super().__init__()
+        self.cat_id = cat_id
+        self.cat_name = cat_name
+
+    def compose(self) -> ComposeResult:
+        yield Label(f"{self.cat_name} ({self.cat_id})")
+
+class RepoListItem(ListItem):
+    def __init__(self, repo_name: str, is_fork: bool):
+        super().__init__()
+        self.repo_name = repo_name
+        self.is_fork = is_fork
+        if self.is_fork:
+            self.add_class("fork")
+
+    def compose(self) -> ComposeResult:
+        label_text = self.repo_name
+        if self.is_fork:
+            label_text += " [i](fork)[/i]"
+        yield Label(label_text)
+
 class CategoryStats(Static):
     def update_stats(self, category_id, repos, mapping):
         cat_repos = [r for r in repos if mapping.get(r['name']) == category_id]
@@ -132,6 +155,9 @@ class RepoManager(App):
     .uncategorized {
         color: $warning;
     }
+    .fork Label {
+        color: $text-muted;
+    }
     """
 
     BINDINGS = [
@@ -188,13 +214,7 @@ class RepoManager(App):
         list_view = self.query_one("#category_list", ListView)
         list_view.clear()
         for cat in self.categories:
-            label = f"{cat['name']} ({cat['id']})"
-            list_view.append(ListItem(Label(label), id=f"cat_{cat['id']}"))
-
-    def _safe_id(self, prefix, name):
-        """Creates a Textual-safe ID by replacing invalid characters with underscores."""
-        safe_name = name.replace(".", "_")
-        return f"{prefix}_{safe_name}"
+            list_view.append(CategoryListItem(cat['id'], cat['name']))
 
     def refresh_repos(self, category_id):
         list_view = self.query_one("#repo_list", ListView)
@@ -202,24 +222,21 @@ class RepoManager(App):
         cat_repos = [r for r in self.repos if self.repo_mapping.get(r['name']) == category_id]
         cat_repos.sort(key=lambda x: x['name'])
         for repo in cat_repos:
-            repo_name = repo['name']
-            list_view.append(ListItem(Label(repo_name), id=self._safe_id("repo", repo_name)))
+            list_view.append(RepoListItem(repo['name'], repo.get('isFork', False)))
 
         self.query_one("#stats", CategoryStats).update_stats(category_id, self.repos, self.repo_mapping)
 
     @on(ListView.Selected, "#category_list")
     def category_selected(self, event):
-        if event.item and event.item.id:
-            cat_id = event.item.id.replace("cat_", "")
+        if event.item and isinstance(event.item, CategoryListItem):
+            cat_id = event.item.cat_id
             self.current_category = cat_id
             self.refresh_repos(cat_id)
 
     @on(ListView.Selected, "#repo_list")
     def repo_selected(self, event):
-        if event.item and event.item.id:
-            # Reconstruct repo_name from the Label since ID might be transformed
-            repo_name = event.item.query_one(Label).render().plain
-            self.action_assign_repo(repo_name)
+        if event.item and isinstance(event.item, RepoListItem):
+            self.action_assign_repo(event.item.repo_name)
 
     def action_assign_repo(self, repo_name):
         current_cat = self.repo_mapping.get(repo_name, "uncategorized")
