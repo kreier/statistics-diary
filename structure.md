@@ -9,7 +9,7 @@ Currently we have 7 categories of sources:
 - legacy
 - subdomains
 - github
-- github_websites
+- github_pages
 - google_sites
 
 ### Types of sources
@@ -17,7 +17,7 @@ Currently we have 7 categories of sources:
 1. Obsidian: diary
 2. Wordpress: blog
 3. Github commit history: github
-4. Legacy HTML Website: legacy, subdomains, github_websites, google_sites
+4. Legacy HTML Website: legacy, subdomains, github_pages, google_sites
 
 ### Metrics for each source
 
@@ -41,10 +41,10 @@ Currently we have 7 categories of sources:
 | Wordpress Blog 🟥    | blog             | Blog        |    985 |     0h03     |
 | Legacy 🟦            | legacy           | Legacy      |  18017 |     1h12     |
 | Subdomain 🟪         | subdomain        | Subdomain   |  12356 |     0h49     |
-| Github repository 🟧 | github           | Github      |   1677 |     0h06     |
-| Github website 🟧    | github_website   | GH Website  |    715 |     0h02     |
-| Google site 🟪       | google_sites     | Google site |   1403 |     0h05     |
-| Sum                 | sum              | Sum         | 184988 |     12h19    |
+| Github Repository 🟧 | github           | Github      |   1677 |     0h06     |
+| Github Pages 🟧      | github_pages     | GH Pages    |    715 |     0h02     |
+| Google Site 🟪       | google_site      | Google Site |   1403 |     0h05     |
+| Sum                  | sum              | Sum         | 184988 |     12h19    |
 
 
 | name                | items | pages | days |  words | sentences | images | reading_time |
@@ -57,9 +57,9 @@ Currently we have 7 categories of sources:
 | Wordpress Blog 🟥    |    84 |    90 |   18 |    985 |       141 |     70 |     0h03     |
 | Legacy 🟦            |   164 |   246 |   80 |  18017 |      2574 |     29 |     1h12     |
 | Subdomain 🟪         |    15 |    23 |   23 |  12356 |      1765 |     43 |     0h49     |
-| Github repository 🟧 |   150 |   195 |  105 |   1677 |       240 |     94 |     0h06     |
-| Github website 🟧    |   134 |   174 |   79 |    715 |       102 |     40 |     0h02     |
-| Google site 🟪       |     2 |    58 |   42 |   1403 |       200 |     43 |     0h05     |
+| Github Repository 🟧 |   150 |   195 |  105 |   1677 |       240 |     94 |     0h06     |
+| Github Pages 🟧      |   134 |   174 |   79 |    715 |       102 |     40 |     0h02     |
+| Google Site 🟪       |     2 |    58 |   42 |   1403 |       200 |     43 |     0h05     |
 | Sum                 |   791 |  1195 |  482 | 184988 |     26427 |    996 |     12h19    |
 
 
@@ -76,7 +76,7 @@ Currently we have 7 categories of sources:
 3. **Legacy** 🟦 website of saiht.de at [saiht.de/legacy](https://saiht.de/legacy) with 64 pages, 13,124 words
 4. Older projects at **subdomains** 🟪, listed at [saiht.de/x](https://saiht.de/x) with 20 subdomains, 35 pages, 1,234 words
 5. GitHub projects with **github** 🟧 commits: 170 projects, with the main websites containing 23,234 words
-6. Websites to some github projects as **github_websites** 🟧 for 130 projects, containing 14,874 word
+6. Websites to some github projects as **github_pages** 🟧 for 130 projects, containing 14,874 word
 7. Additional websites as **google_sites** 🟪 with 14 sites, containing 1,423 words
 
 ### Final 11 source IDs
@@ -92,8 +92,8 @@ With the 5 subcategories for obsidian the final number of `source_id`'s rises to
 - legacy
 - subdomain
 - github
-- github-website
-- google-site
+- github_pages
+- google_site
 
 Now I need a markdown table with name, label, source_id, items, pages, words in the README.md and update it from time to time.
 
