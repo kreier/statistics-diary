@@ -99,23 +99,23 @@ That's actually for 15 rows for all 21639 days until 2034/12/31. Progression is 
 
 It is only 51 years from 1975 to 2026, but since you need one image for each year including 1975 and 2026 you would actually need 52 boxes, and this can't be divided by 3. Let's add two more years for the 18th row we just started, and visualize now top to bottom:
 
-<img src="example/activity_2026.svg" width="33%">
+<img src="example/activity_2026.svg" width="33%"><img src="example/activity_2023.svg" width="33%"><img src="example/activity_2024.svg" width="33%">
+<img src="example/activity_2025.svg" width="33%"><img src="example/activity_2020.svg" width="33%"><img src="example/activity_2021.svg" width="33%">
+<img src="example/activity_2022.svg" width="33%"><img src="example/activity_2017.svg" width="33%"><img src="example/activity_2018.svg" width="33%">
+<img src="example/activity_2019.svg" width="33%"><img src="example/activity_2014.svg" width="33%"><img src="example/activity_2015.svg" width="33%">
+<img src="example/activity_2016.svg" width="33%"><img src="example/activity_2011.svg" width="33%"><img src="example/activity_2012.svg" width="33%">
+<img src="example/activity_2013.svg" width="33%"><img src="example/activity_2008.svg" width="33%"><img src="example/activity_2009.svg" width="33%">
+<img src="example/activity_2010.svg" width="33%"><img src="example/activity_2005.svg" width="33%"><img src="example/activity_2006.svg" width="33%">
+<img src="example/activity_2007.svg" width="33%"><img src="example/activity_2002.svg" width="33%"><img src="example/activity_2003.svg" width="33%">
+<img src="example/activity_2004.svg" width="33%"><img src="example/activity_1999.svg" width="33%"><img src="example/activity_2000.svg" width="33%">
+<img src="example/activity_2001.svg" width="33%"><img src="example/activity_1996.svg" width="33%"><img src="example/activity_1997.svg" width="33%">
+<img src="example/activity_1998.svg" width="33%"><img src="example/activity_1993.svg" width="33%"><img src="example/activity_1994.svg" width="33%">
+<img src="example/activity_1995.svg" width="33%"><img src="example/activity_1990.svg" width="33%"><img src="example/activity_1991.svg" width="33%">
+<img src="example/activity_1992.svg" width="33%"><img src="example/activity_1987.svg" width="33%"><img src="example/activity_1988.svg" width="33%">
+<img src="example/activity_1989.svg" width="33%"><img src="example/activity_1984.svg" width="33%"><img src="example/activity_1985.svg" width="33%">
+<img src="example/activity_1986.svg" width="33%"><img src="example/activity_1981.svg" width="33%"><img src="example/activity_1982.svg" width="33%">
+<img src="example/activity_1983.svg" width="33%"><img src="example/activity_1978.svg" width="33%"><img src="example/activity_1979.svg" width="33%">
+<img src="example/activity_1980.svg" width="33%"><img src="example/activity_1975.svg" width="33%"><img src="example/activity_1976.svg" width="33%">
 
-<img src="example/activity_2023.svg" width="33%"><img src="example/activity_2024.svg" width="33%"><img src="example/activity_2025.svg" width="33%">
-<img src="example/activity_2020.svg" width="33%"><img src="example/activity_2021.svg" width="33%"><img src="example/activity_2022.svg" width="33%">
-<img src="example/activity_2017.svg" width="33%"><img src="example/activity_2018.svg" width="33%"><img src="example/activity_2019.svg" width="33%">
-<img src="example/activity_2014.svg" width="33%"><img src="example/activity_2015.svg" width="33%"><img src="example/activity_2016.svg" width="33%">
-<img src="example/activity_2011.svg" width="33%"><img src="example/activity_2012.svg" width="33%"><img src="example/activity_2013.svg" width="33%">
-<img src="example/activity_2008.svg" width="33%"><img src="example/activity_2009.svg" width="33%"><img src="example/activity_2010.svg" width="33%">
-<img src="example/activity_2005.svg" width="33%"><img src="example/activity_2006.svg" width="33%"><img src="example/activity_2007.svg" width="33%">
-<img src="example/activity_2002.svg" width="33%"><img src="example/activity_2003.svg" width="33%"><img src="example/activity_2004.svg" width="33%">
-<img src="example/activity_1999.svg" width="33%"><img src="example/activity_2000.svg" width="33%"><img src="example/activity_2001.svg" width="33%">
-<img src="example/activity_1996.svg" width="33%"><img src="example/activity_1997.svg" width="33%"><img src="example/activity_1998.svg" width="33%">
-<img src="example/activity_1993.svg" width="33%"><img src="example/activity_1994.svg" width="33%"><img src="example/activity_1995.svg" width="33%">
-<img src="example/activity_1990.svg" width="33%"><img src="example/activity_1991.svg" width="33%"><img src="example/activity_1992.svg" width="33%">
-<img src="example/activity_1987.svg" width="33%"><img src="example/activity_1988.svg" width="33%"><img src="example/activity_1989.svg" width="33%">
-<img src="example/activity_1984.svg" width="33%"><img src="example/activity_1985.svg" width="33%"><img src="example/activity_1986.svg" width="33%">
-<img src="example/activity_1981.svg" width="33%"><img src="example/activity_1982.svg" width="33%"><img src="example/activity_1983.svg" width="33%">
-<img src="example/activity_1978.svg" width="33%"><img src="example/activity_1979.svg" width="33%"><img src="example/activity_1980.svg" width="33%">
-<img src="example/activity_1975.svg" width="33%"><img src="example/activity_1976.svg" width="33%"><img src="example/activity_1977.svg" width="33%">
+<img src="example/activity_1977.svg" width="33%">
 
