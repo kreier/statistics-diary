@@ -12,16 +12,20 @@ Version: v2026.03.26.60
 
 ## Short summary
 
+<!-- START:summary_short -->
 - Documents or projects: 143
 - Individual pages: 315
 - Days documented: 1132 of 18345 (6.17%)
 - Total words: 1,432,423
 - Total sentences: 3,154
-- Total images: 132
+- Total paragraphs: 1,165
+- Total images: 5,132
 - Required total reading time: 15 hours 4 minutes
+<!-- END:summary_short -->
 
 ## Detailed overview
 
+<!-- START:summary_detailed -->
 1. Obsidian and Quartz **diary** at [diary.saiht.de](https://diary.saiht.de) has 1,023,452 words that would require 13 hours to read. In total some 83 markdown files. 312 of 18,923 days are documented.
    - Diary 🟩: 123 days are documented
    - Blog 🟥: 82 entries
@@ -34,25 +38,76 @@ Version: v2026.03.26.60
 5. GitHub projects with **github** commits: 170 projects, with the main websites containing 23,234 words
 6. Websites to some github projects as **github_websites** for 130 projects, containing 14,874 word
 7. Additional websites as **google_sites** with 14 sites, containing 1,423 words
+<!-- END:summary_detailed -->
 
-## Heatmap
+## Heatmap last two years
 
+<img src="docs/activity_2025.svg" width="100%">
 <img src="docs/example_2025.svg" width="100%">
 
 ![graph 2025](docs/2025-12-18_GitHub_example.png)
 
-## Table on Categories and Locations
+## Table of Source Categories, Labels and Types
 
-| Category          | Sites | Pages | Words | Time to read | Images |
-|-------------------|------:|------:|------:|-------------:|:------:|
-| 1) diary          |    92 |    92 |  1731 |         2h13 |     52 |
-| 2) blog           |    80 |    80 |   947 |         0h51 |     16 |
-| 3) legacy         |    56 |    56 |    18 |         1h27 |      5 |
-| 4) subdomains     |    15 |    15 |    72 |         2h15 |     47 |
-| 5) github         |   170 |  9457 |  3197 |         8h18 |    163 |
-| 6) github_websites |  124 |   184 |   444 |         1h14 |     32 |
-| 7) google_sites   |    14 |    38 |   897 |         2h36 |     76 |
-| All               |  1342 |  1342 |  1342 |        11h20 |    245 |
+I have currently 11 categories of sources that fit 4 types of sources (html, github, wordpress, obsidian) to be parsed individually:
+
+| category           | category_id       | label       |   type   | 
+|--------------------|-------------------|-------------|:---------:|
+| Diary 🟩           | obsidian-diary   | Diary       | obsidian  |
+| Obsidian Blog 🟥   | obsidian-blog    | Blog2       | obsidian  |
+| Project 🟪         | obsidian-project | Project     | obsidian  |
+| Travel 🟨          | obsidian-travel  | Travel      | obsidian  |
+| Website 🟦         | obsidian-website | Website     | obsidian  |
+| Wordpress Blog 🟥  | blog             | Blog        | wordpress | 
+| Legacy 🟦          | legacy           | Legacy      | html      |
+| Subdomain 🟪       | subdomain        | Subdomain   | html      |
+| Repository 🟧      | github           | Github      | github    |
+| Github Pages 🟧    | github_pages     | GH Pages    | html      |
+| Google Site 🟪     | google_site      | Google Site | html      |
+
+For each of these sources in the categories we want 8 metrics:
+
+- items
+- pages
+- days
+- words
+- sensences
+- paragraphs
+- images
+- reading_time
+
+| category         | items | pages | days |  words | sentences | paragraphs | images | reading_time |
+|------------------|------:|------:|-----:|-------:|----------:|:----------:|:------:|:------------:|
+| Diary 🟩          |   142 |   142 |   30 |  66756 |      9537 |       6811 |    475 |     4h27     |
+| Obsidian Blog 🟥  |    38 |    38 |   45 |    730 |       104 |        314 |     33 |     0h02     |
+| Project 🟪        |    21 |    57 |   29 |   1791 |       256 |         71 |     53 |     0h07     |
+| Travel 🟨         |    34 |    73 |    9 |  48251 |      6893 |        866 |     33 |     3h13     |
+| Website 🟦        |     7 |    99 |   22 |  32307 |      4615 |        501 |     83 |     2h09     |
+| Wordpress Blog 🟥 |    84 |    90 |   18 |    985 |       141 |       1014 |     70 |     0h03     |
+| Legacy 🟦         |   164 |   246 |   80 |  18017 |      2574 |        683 |     29 |     1h12     |
+| Subdomain 🟪      |    15 |    23 |   23 |  12356 |      1765 |        563 |     43 |     0h49     |
+| Repository 🟧     |   150 |   195 |  105 |   1677 |       240 |        162 |     94 |     0h06     |
+| Github Pages 🟧   |   134 |   174 |   79 |    715 |       102 |        203 |     40 |     0h02     |
+| Google site 🟪    |     2 |    58 |   42 |   1403 |       200 |        218 |     43 |     0h05     |
+| Sum              |   791 |  1195 |  482 | 184988 |     26427 |      11411 |    996 |     12h19    |
+
+## Procedure and data location
+
+### Sources
+
+The sources are in the `\sources` folder inside each `\category` subfolder and as sources with a unique id listed in respective `JSON` files and have all their items there. For example the subdomain https://tschechien.saiht.de/ would be of the category Subdomain, source_id would be tschechien_saiht_de and the respective items for pages like `index.html` and `bilder.html` and `einladungen.html` the name before the `.html`. All inside a `json` file, in this case: `\sources\subdomain\tschechien_saiht_de.json`. These three items would be found there.
+
+#### Web view of sources
+
+A static web view of the sources will be generated by the file `\python\manage_sources_webview.py` and be accessable in the `\docs\sources` folder for view from https://kreier.github.io/statistics-diary/sources. At the same time they will be managed from a local webport with Flask in python to change colors, categories or sources.
+
+### Data
+
+
+
+### Parsing order
+
+#### Step 1: 
 
 ## (1) Details on Obsidian and Quartz
 
