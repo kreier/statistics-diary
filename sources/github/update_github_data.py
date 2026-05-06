@@ -165,8 +165,7 @@ def fetch_commits(repo_name, since_date=None):
 
 def main():
     if not GITHUB_TOKEN:
-        print("GITHUB_TOKEN not found in environment.")
-        return
+        print("GITHUB_TOKEN not found in environment. Proceeding with limited functionality.")
 
     # 1. Fetch and update repository list
     print(f"Fetching repositories for {USERNAME}...")
@@ -175,9 +174,20 @@ def main():
         with open(REPOS_PATH, 'w', encoding='utf-8') as f:
             json.dump(repositories, f, indent=2, ensure_ascii=False)
         print(f"Updated {REPOS_PATH} with {len(repositories)} repositories.")
+    else:
+        print(f"Failed to fetch repositories from GitHub. Attempting to load existing {REPOS_PATH}...")
+        if os.path.exists(REPOS_PATH):
+            with open(REPOS_PATH, 'r', encoding='utf-8') as f:
+                repositories = json.load(f)
+            print(f"Loaded {len(repositories)} repositories from existing file.")
+        else:
+            print(f"No existing {REPOS_PATH} found. Cannot proceed.")
+            return
 
-    # 2. Ensure commits directory exists
+    # 2. Ensure commits directory exists and has a .gitkeep file
     os.makedirs(COMMITS_DIR, exist_ok=True)
+    with open(os.path.join(COMMITS_DIR, ".gitkeep"), 'a'):
+        pass
 
     # 3. Fetch commits for each repository
     for repo in repositories:
