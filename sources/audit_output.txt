@@ -1,0 +1,7 @@
+--- Auditing Pipeline Output ---
+Sources defined: 11
+Step 1 (Links) files: 12
+Step 2 (Content) total files: 322
+Step 3 (Analysis) files: 11
+Step 4 (SVGs) generated: 52
+SUCCESS: All 52 years generated.
