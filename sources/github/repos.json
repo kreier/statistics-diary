@@ -784,8 +784,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-05-04T15:17:04Z",
-    "stargazerCount": 54,
+    "updatedAt": "2026-05-28T13:23:48Z",
+    "stargazerCount": 56,
     "primaryLanguage": {
       "name": "C"
     },
@@ -2534,7 +2534,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-03-21T01:16:10Z",
+    "updatedAt": "2026-05-17T01:48:45Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
@@ -2547,7 +2547,7 @@
         }
       },
       {
-        "size": 518513,
+        "size": 522090,
         "node": {
           "name": "Python"
         }
@@ -2559,7 +2559,7 @@
         }
       },
       {
-        "size": 199226,
+        "size": 220798,
         "node": {
           "name": "C++"
         }
@@ -3043,7 +3043,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2025-05-13T13:28:36Z",
+    "updatedAt": "2026-05-12T17:33:20Z",
     "stargazerCount": 1,
     "primaryLanguage": {
       "name": "Python"
@@ -3056,15 +3056,27 @@
         }
       },
       {
-        "size": 14910,
+        "size": 29818,
         "node": {
           "name": "CMake"
         }
       },
       {
-        "size": 1594,
+        "size": 103841,
         "node": {
           "name": "C"
+        }
+      },
+      {
+        "size": 336,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 721,
+        "node": {
+          "name": "Makefile"
         }
       }
     ],
@@ -3610,7 +3622,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-04-29T11:17:30Z",
+    "updatedAt": "2026-05-30T17:16:59Z",
     "stargazerCount": 9,
     "primaryLanguage": {
       "name": "Python"
@@ -3623,7 +3635,7 @@
         }
       },
       {
-        "size": 1272236,
+        "size": 1274461,
         "node": {
           "name": "Python"
         }
@@ -4635,8 +4647,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-04-30T22:02:01Z",
-    "stargazerCount": 24,
+    "updatedAt": "2026-05-23T02:58:46Z",
+    "stargazerCount": 26,
     "primaryLanguage": {
       "name": "C++"
     },
@@ -5021,8 +5033,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-05-03T23:46:39Z",
-    "stargazerCount": 20,
+    "updatedAt": "2026-05-27T18:01:40Z",
+    "stargazerCount": 23,
     "primaryLanguage": {
       "name": "Cuda"
     },
@@ -5091,8 +5103,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-04-27T16:44:51Z",
-    "stargazerCount": 6,
+    "updatedAt": "2026-05-19T03:37:04Z",
+    "stargazerCount": 8,
     "primaryLanguage": {
       "name": "Shell"
     },
@@ -5542,7 +5554,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-04-27T09:55:49Z",
+    "updatedAt": "2026-05-13T15:21:16Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "TypeScript"
@@ -5582,21 +5594,21 @@
     "repositoryTopics": []
   },
   {
-    "name": "promised-seed",
+    "name": "promised-offspring",
     "description": "Visualizing the lineage of Jesus, starting with Adam and connecting families and prophecies.",
-    "url": "https://github.com/kreier/promised-seed",
-    "homepageUrl": "https://kreier.github.io/promised-seed/",
+    "url": "https://github.com/kreier/promised-offspring",
+    "homepageUrl": "https://kreier.github.io/promised-offspring/",
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2025-11-30T06:17:40Z",
+    "updatedAt": "2026-05-31T17:54:44Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
     },
     "languages": [
       {
-        "size": 34500,
+        "size": 32369,
         "node": {
           "name": "Python"
         }
@@ -5612,7 +5624,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-05-06T18:44:09Z",
+    "updatedAt": "2026-05-06T19:06:32Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
@@ -5740,7 +5752,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-04-02T08:43:14Z",
+    "updatedAt": "2026-05-29T19:11:01Z",
     "stargazerCount": 2,
     "primaryLanguage": {
       "name": "Python"
@@ -5756,6 +5768,12 @@
         "size": 1438,
         "node": {
           "name": "Shell"
+        }
+      },
+      {
+        "size": 97,
+        "node": {
+          "name": "Zig"
         }
       }
     ],
@@ -5798,7 +5816,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-02-12T17:17:22Z",
+    "updatedAt": "2026-05-29T19:20:18Z",
     "stargazerCount": 1,
     "primaryLanguage": {
       "name": "Rust"
@@ -5808,6 +5826,12 @@
         "size": 1793,
         "node": {
           "name": "Rust"
+        }
+      },
+      {
+        "size": 1294,
+        "node": {
+          "name": "Zig"
         }
       }
     ],
@@ -6213,6 +6237,35 @@
     "languages": [
       {
         "size": 29075,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "wordchain",
+    "description": "Train Vietnamese words by create word chains of compound words.",
+    "url": "https://github.com/kreier/wordchain",
+    "homepageUrl": "https://kreier.github.io/wordchain/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-05-31T06:07:58Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "languages": [
+      {
+        "size": 4021,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 564,
         "node": {
           "name": "Python"
         }
