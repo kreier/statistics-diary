@@ -132,11 +132,11 @@
     "name": "rfid",
     "description": "RFID reader for 125 kHz with 1602 display on Arduino",
     "url": "https://github.com/kreier/rfid",
-    "homepageUrl": null,
+    "homepageUrl": "https://kreier.github.io/rfid/",
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2020-12-16T11:16:31Z",
+    "updatedAt": "2026-06-03T11:04:57Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "C++"
@@ -2065,8 +2065,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2022-05-26T10:28:11Z",
-    "stargazerCount": 0,
+    "updatedAt": "2026-06-03T08:30:59Z",
+    "stargazerCount": 1,
     "primaryLanguage": {
       "name": "Python"
     },
@@ -3622,7 +3622,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-05-30T17:16:59Z",
+    "updatedAt": "2026-06-30T05:55:12Z",
     "stargazerCount": 9,
     "primaryLanguage": {
       "name": "Python"
@@ -3635,7 +3635,7 @@
         }
       },
       {
-        "size": 1274461,
+        "size": 1294196,
         "node": {
           "name": "Python"
         }
@@ -4152,13 +4152,13 @@
   },
   {
     "name": "timeline24.github.io",
-    "description": "Simply contain the latest PDFs for download, linked from the QR codes on the timelines itself.",
+    "description": "Reference location for the latest PDFs to download, linked from the QR codes on the timelines itself.",
     "url": "https://github.com/timeline24/timeline24.github.io",
     "homepageUrl": "https://timeline24.github.io/",
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-02-12T16:21:03Z",
+    "updatedAt": "2026-06-30T02:23:18Z",
     "stargazerCount": 2,
     "primaryLanguage": {
       "name": "Python"
@@ -4177,7 +4177,14 @@
         }
       }
     ],
-    "repositoryTopics": []
+    "repositoryTopics": [
+      {
+        "name": "history"
+      },
+      {
+        "name": "timeline"
+      }
+    ]
   },
   {
     "name": "codespaces-jupyter",
@@ -4262,7 +4269,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2025-12-26T04:02:54Z",
+    "updatedAt": "2026-06-27T03:37:10Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "HTML"
@@ -4275,7 +4282,7 @@
         }
       },
       {
-        "size": 18951116,
+        "size": 19540946,
         "node": {
           "name": "HTML"
         }
@@ -4647,8 +4654,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-05-23T02:58:46Z",
-    "stargazerCount": 26,
+    "updatedAt": "2026-06-15T12:56:44Z",
+    "stargazerCount": 30,
     "primaryLanguage": {
       "name": "C++"
     },
@@ -4765,8 +4772,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-04-29T00:04:22Z",
-    "stargazerCount": 1,
+    "updatedAt": "2026-06-16T16:38:16Z",
+    "stargazerCount": 2,
     "primaryLanguage": {
       "name": "C++"
     },
@@ -4910,7 +4917,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2025-10-10T05:02:04Z",
+    "updatedAt": "2026-06-25T17:06:44Z",
     "stargazerCount": 4,
     "primaryLanguage": {
       "name": "Python"
@@ -5290,7 +5297,7 @@
     "isArchived": false,
     "isFork": true,
     "isPrivate": false,
-    "updatedAt": "2025-05-13T13:21:26Z",
+    "updatedAt": "2026-06-29T20:33:57Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "C"
@@ -5554,7 +5561,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-05-13T15:21:16Z",
+    "updatedAt": "2026-06-29T19:59:59Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "TypeScript"
@@ -5601,14 +5608,14 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-05-31T17:54:44Z",
+    "updatedAt": "2026-06-29T15:25:58Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
     },
     "languages": [
       {
-        "size": 32369,
+        "size": 28442,
         "node": {
           "name": "Python"
         }
@@ -5624,7 +5631,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-05-06T19:06:32Z",
+    "updatedAt": "2026-06-01T04:06:21Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
@@ -6192,7 +6199,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-04-21T10:19:12Z",
+    "updatedAt": "2026-06-21T02:33:27Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "TypeScript"
@@ -6252,7 +6259,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-05-31T06:07:58Z",
+    "updatedAt": "2026-06-01T15:59:18Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "HTML"
@@ -6268,6 +6275,64 @@
         "size": 564,
         "node": {
           "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "theocracy",
+    "description": "Loose collection of organizational bits and study projects.",
+    "url": "https://github.com/kreier/theocracy",
+    "homepageUrl": "https://kreier.github.io/theocracy/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-06-22T07:23:08Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "languages": [
+      {
+        "size": 135919,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 3040,
+        "node": {
+          "name": "Zig"
+        }
+      },
+      {
+        "size": 4156,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "theokratie",
+    "description": "Eine kleine Sammlung theokratischer Projekte und ähnlicher spiritueller Ideen.",
+    "url": "https://github.com/kreier/theokratie",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-06-29T20:29:12Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "Zig"
+    },
+    "languages": [
+      {
+        "size": 3040,
+        "node": {
+          "name": "Zig"
         }
       }
     ],
