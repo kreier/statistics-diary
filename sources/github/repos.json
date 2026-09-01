@@ -287,8 +287,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-03-27T11:30:02Z",
-    "stargazerCount": 12,
+    "updatedAt": "2026-08-02T16:01:50Z",
+    "stargazerCount": 13,
     "primaryLanguage": {
       "name": "C++"
     },
@@ -796,8 +796,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-07-18T07:43:11Z",
-    "stargazerCount": 58,
+    "updatedAt": "2026-08-19T16:15:21Z",
+    "stargazerCount": 59,
     "primaryLanguage": {
       "name": "C"
     },
@@ -3634,7 +3634,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-06-30T05:55:12Z",
+    "updatedAt": "2026-08-31T14:29:50Z",
     "stargazerCount": 9,
     "primaryLanguage": {
       "name": "Python"
@@ -3647,7 +3647,7 @@
         }
       },
       {
-        "size": 1294196,
+        "size": 1332649,
         "node": {
           "name": "Python"
         }
@@ -4170,20 +4170,20 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-06-30T02:23:18Z",
+    "updatedAt": "2026-08-31T23:53:07Z",
     "stargazerCount": 2,
     "primaryLanguage": {
       "name": "Python"
     },
     "languages": [
       {
-        "size": 42537,
+        "size": 41559,
         "node": {
           "name": "Python"
         }
       },
       {
-        "size": 4195,
+        "size": 4078,
         "node": {
           "name": "Jupyter Notebook"
         }
@@ -4666,8 +4666,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-07-21T19:06:30Z",
-    "stargazerCount": 32,
+    "updatedAt": "2026-08-23T18:15:05Z",
+    "stargazerCount": 36,
     "primaryLanguage": {
       "name": "C++"
     },
@@ -4929,7 +4929,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-07-01T12:56:46Z",
+    "updatedAt": "2026-08-31T23:54:21Z",
     "stargazerCount": 4,
     "primaryLanguage": {
       "name": "Python"
@@ -5052,8 +5052,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-07-26T20:33:09Z",
-    "stargazerCount": 27,
+    "updatedAt": "2026-08-31T10:45:43Z",
+    "stargazerCount": 31,
     "primaryLanguage": {
       "name": "Cuda"
     },
@@ -5573,7 +5573,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-07-16T07:23:34Z",
+    "updatedAt": "2026-08-22T00:57:58Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "TypeScript"
@@ -5643,7 +5643,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-07-01T03:54:52Z",
+    "updatedAt": "2026-08-25T07:26:33Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
@@ -5771,7 +5771,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-05-29T19:11:01Z",
+    "updatedAt": "2026-08-20T14:34:38Z",
     "stargazerCount": 2,
     "primaryLanguage": {
       "name": "Python"
@@ -5978,16 +5978,34 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-05-04T11:33:45Z",
+    "updatedAt": "2026-08-31T23:49:30Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
     },
     "languages": [
       {
-        "size": 43265,
+        "size": 52780,
         "node": {
           "name": "Python"
+        }
+      },
+      {
+        "size": 24091,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 33398,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 10369,
+        "node": {
+          "name": "CSS"
         }
       }
     ],
@@ -6176,7 +6194,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-04-24T04:34:20Z",
+    "updatedAt": "2026-08-08T01:04:42Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
@@ -6211,7 +6229,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-06-21T02:33:27Z",
+    "updatedAt": "2026-08-22T15:55:41Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "TypeScript"
@@ -6300,7 +6318,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-06-22T07:23:08Z",
+    "updatedAt": "2026-08-15T15:50:07Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "HTML"
@@ -6348,6 +6366,206 @@
         }
       }
     ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "second-brain",
+    "description": "Testground to learn the basics and pitfalls of an Obsidian vault as main memory for my second brain, working with different scripts, automation and agents.",
+    "url": "https://github.com/kreier/second-brain",
+    "homepageUrl": "https://kreier.github.io/second-brain/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-08-07T13:18:36Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "languages": [
+      {
+        "size": 4931,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "record",
+    "description": "Foundation for second brain and diary statistics project. It parses, extracts, labels, versions all kinds of sources determinitically and transforms them into standardized markdown with YAML frontmatter for later processing.",
+    "url": "https://github.com/kreier/record",
+    "homepageUrl": "https://kreier.github.io/record/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-08-10T11:02:57Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "languages": [
+      {
+        "size": 14897,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 3235,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "jwlibrary-merge-web",
+    "description": "Merge multiple JW Library .jwlibrary backups into one master backup directly in your browser.",
+    "url": "https://github.com/kreier/jwlibrary-merge-web",
+    "homepageUrl": "https://kreier.github.io/jwlibrary-merge-web/",
+    "isArchived": false,
+    "isFork": true,
+    "isPrivate": false,
+    "updatedAt": "2026-08-23T01:27:01Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "languages": [
+      {
+        "size": 106954,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 390711,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 784,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 3313,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "vietnamese",
+    "description": "Collect vocabulary, grammar and resources to learn Vietnamese.",
+    "url": "https://github.com/kreier/vietnamese",
+    "homepageUrl": "https://kreier.github.io/vietnamese/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-08-15T17:37:32Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "languages": [
+      {
+        "size": 397,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "timeline.js",
+    "description": "Creating the timeline pdf dynamically in the browser with JavaScript.",
+    "url": "https://github.com/kreier/timeline.js",
+    "homepageUrl": "https://kreier.github.io/timeline.js/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-08-17T17:39:25Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "languages": [
+      {
+        "size": 10662,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 71428,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 15103,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "bank",
+    "description": "Manage bank accounts in different currencies over many years in the browser.",
+    "url": "https://github.com/kreier/bank",
+    "homepageUrl": "https://kreier.github.io/bank/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-08-25T00:46:06Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "languages": [
+      {
+        "size": 361,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 43848,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 4023,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "ai-project-template",
+    "description": "Have 5 Markdown files as starting point for coding projects with AI",
+    "url": "https://github.com/kreier/ai-project-template",
+    "homepageUrl": "https://kreier.github.io/ai-project-template/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-08-29T07:53:11Z",
+    "stargazerCount": 0,
+    "primaryLanguage": null,
+    "languages": [],
     "repositoryTopics": []
   }
 ]
