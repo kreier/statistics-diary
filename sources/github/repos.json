@@ -422,11 +422,11 @@
     "name": "ultrasonic",
     "description": "Ultrasonic Distance Measurements with Arduino and 1602 display",
     "url": "https://github.com/kreier/ultrasonic",
-    "homepageUrl": null,
+    "homepageUrl": "https://kreier.github.io/ultrasonic/",
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2022-10-22T15:21:01Z",
+    "updatedAt": "2026-09-30T05:07:16Z",
     "stargazerCount": 1,
     "primaryLanguage": {
       "name": "C++"
@@ -796,8 +796,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-08-19T16:15:21Z",
-    "stargazerCount": 59,
+    "updatedAt": "2026-09-17T12:33:30Z",
+    "stargazerCount": 60,
     "primaryLanguage": {
       "name": "C"
     },
@@ -901,7 +901,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-04-28T05:26:25Z",
+    "updatedAt": "2026-09-17T17:41:37Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "C++"
@@ -1147,7 +1147,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2025-10-09T09:37:35Z",
+    "updatedAt": "2026-09-21T13:54:47Z",
     "stargazerCount": 3,
     "primaryLanguage": {
       "name": "C++"
@@ -3224,14 +3224,14 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-02-04T18:35:51Z",
+    "updatedAt": "2026-10-01T03:36:34Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "C++"
     },
     "languages": [
       {
-        "size": 373717,
+        "size": 376872,
         "node": {
           "name": "C++"
         }
@@ -3634,7 +3634,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-08-31T14:29:50Z",
+    "updatedAt": "2026-09-24T18:13:02Z",
     "stargazerCount": 9,
     "primaryLanguage": {
       "name": "Python"
@@ -3647,7 +3647,7 @@
         }
       },
       {
-        "size": 1332649,
+        "size": 1340309,
         "node": {
           "name": "Python"
         }
@@ -4123,7 +4123,7 @@
     "isArchived": false,
     "isFork": true,
     "isPrivate": false,
-    "updatedAt": "2024-06-10T06:19:45Z",
+    "updatedAt": "2026-09-20T15:57:35Z",
     "stargazerCount": 1,
     "primaryLanguage": {
       "name": "Python"
@@ -4170,8 +4170,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-08-31T23:53:07Z",
-    "stargazerCount": 2,
+    "updatedAt": "2026-09-25T00:58:39Z",
+    "stargazerCount": 5,
     "primaryLanguage": {
       "name": "Python"
     },
@@ -4281,7 +4281,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-06-27T03:37:10Z",
+    "updatedAt": "2026-09-03T05:26:23Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "HTML"
@@ -4520,7 +4520,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-02-09T06:54:21Z",
+    "updatedAt": "2026-09-11T18:29:52Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
@@ -4539,9 +4539,27 @@
         }
       },
       {
-        "size": 14457,
+        "size": 50307,
         "node": {
           "name": "Python"
+        }
+      },
+      {
+        "size": 358,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 5060,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 17548,
+        "node": {
+          "name": "TypeScript"
         }
       }
     ],
@@ -4666,8 +4684,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-08-23T18:15:05Z",
-    "stargazerCount": 36,
+    "updatedAt": "2026-09-28T18:23:25Z",
+    "stargazerCount": 40,
     "primaryLanguage": {
       "name": "C++"
     },
@@ -4929,8 +4947,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-08-31T23:54:21Z",
-    "stargazerCount": 4,
+    "updatedAt": "2026-09-25T10:35:07Z",
+    "stargazerCount": 6,
     "primaryLanguage": {
       "name": "Python"
     },
@@ -5052,8 +5070,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-08-31T10:45:43Z",
-    "stargazerCount": 31,
+    "updatedAt": "2026-09-26T22:31:30Z",
+    "stargazerCount": 32,
     "primaryLanguage": {
       "name": "Cuda"
     },
@@ -5408,8 +5426,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2025-09-28T08:26:34Z",
-    "stargazerCount": 0,
+    "updatedAt": "2026-09-15T20:28:15Z",
+    "stargazerCount": 2,
     "primaryLanguage": {
       "name": "Jupyter Notebook"
     },
@@ -5620,14 +5638,14 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-07-03T05:05:18Z",
+    "updatedAt": "2026-09-16T20:44:03Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
     },
     "languages": [
       {
-        "size": 28442,
+        "size": 29088,
         "node": {
           "name": "Python"
         }
@@ -5643,7 +5661,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-08-25T07:26:33Z",
+    "updatedAt": "2026-09-01T03:50:04Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
@@ -5672,10 +5690,10 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-01-20T05:04:53Z",
+    "updatedAt": "2026-09-24T18:13:30Z",
     "stargazerCount": 0,
     "primaryLanguage": {
-      "name": "JavaScript"
+      "name": "Python"
     },
     "languages": [
       {
@@ -5694,6 +5712,12 @@
         "size": 614,
         "node": {
           "name": "CSS"
+        }
+      },
+      {
+        "size": 3465,
+        "node": {
+          "name": "Python"
         }
       }
     ],
@@ -5932,16 +5956,22 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-04-18T18:55:15Z",
-    "stargazerCount": 0,
+    "updatedAt": "2026-09-16T15:10:50Z",
+    "stargazerCount": 1,
     "primaryLanguage": {
       "name": "Python"
     },
     "languages": [
       {
-        "size": 103445,
+        "size": 103504,
         "node": {
           "name": "Python"
+        }
+      },
+      {
+        "size": 23271,
+        "node": {
+          "name": "HTML"
         }
       }
     ],
@@ -5978,14 +6008,14 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-08-31T23:49:30Z",
+    "updatedAt": "2026-09-24T23:11:32Z",
     "stargazerCount": 0,
     "primaryLanguage": {
-      "name": "Python"
+      "name": "TypeScript"
     },
     "languages": [
       {
-        "size": 52780,
+        "size": 73863,
         "node": {
           "name": "Python"
         }
@@ -5997,13 +6027,13 @@
         }
       },
       {
-        "size": 33398,
+        "size": 108178,
         "node": {
           "name": "TypeScript"
         }
       },
       {
-        "size": 10369,
+        "size": 19889,
         "node": {
           "name": "CSS"
         }
@@ -6159,8 +6189,8 @@
     "isArchived": false,
     "isFork": true,
     "isPrivate": false,
-    "updatedAt": "2026-04-05T00:08:37Z",
-    "stargazerCount": 0,
+    "updatedAt": "2026-09-20T14:48:44Z",
+    "stargazerCount": 1,
     "primaryLanguage": {
       "name": "C"
     },
@@ -6229,7 +6259,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-08-22T15:55:41Z",
+    "updatedAt": "2026-09-08T08:14:53Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "TypeScript"
@@ -6376,16 +6406,34 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-08-07T13:18:36Z",
-    "stargazerCount": 0,
+    "updatedAt": "2026-09-27T22:17:36Z",
+    "stargazerCount": 1,
     "primaryLanguage": {
-      "name": "Python"
+      "name": "HTML"
     },
     "languages": [
       {
-        "size": 4931,
+        "size": 17157,
         "node": {
           "name": "Python"
+        }
+      },
+      {
+        "size": 1654,
+        "node": {
+          "name": "Dockerfile"
+        }
+      },
+      {
+        "size": 733,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 24037,
+        "node": {
+          "name": "HTML"
         }
       }
     ],
@@ -6428,26 +6476,26 @@
     "isArchived": false,
     "isFork": true,
     "isPrivate": false,
-    "updatedAt": "2026-08-23T01:27:01Z",
+    "updatedAt": "2026-09-14T09:02:44Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "TypeScript"
     },
     "languages": [
       {
-        "size": 106954,
+        "size": 109972,
         "node": {
           "name": "JavaScript"
         }
       },
       {
-        "size": 390711,
+        "size": 424763,
         "node": {
           "name": "TypeScript"
         }
       },
       {
-        "size": 784,
+        "size": 867,
         "node": {
           "name": "CSS"
         }
@@ -6469,7 +6517,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-08-15T17:37:32Z",
+    "updatedAt": "2026-10-01T03:01:01Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
@@ -6479,6 +6527,12 @@
         "size": 397,
         "node": {
           "name": "Python"
+        }
+      },
+      {
+        "size": 171,
+        "node": {
+          "name": "JavaScript"
         }
       }
     ],
@@ -6566,6 +6620,347 @@
     "stargazerCount": 0,
     "primaryLanguage": null,
     "languages": [],
+    "repositoryTopics": []
+  },
+  {
+    "name": "status",
+    "description": "View the status of my local network, projects and other things.",
+    "url": "https://github.com/kreier/status",
+    "homepageUrl": "https://kreier.github.io/status/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-09-22T18:43:51Z",
+    "stargazerCount": 1,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "languages": [
+      {
+        "size": 302,
+        "node": {
+          "name": "Dockerfile"
+        }
+      },
+      {
+        "size": 54168,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 16844,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 7552,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 10900,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 2292,
+        "node": {
+          "name": "Shell"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "Automation26",
+    "description": "First shared repository with Nam",
+    "url": "https://github.com/offspring26/Automation26",
+    "homepageUrl": "https://offspring26.github.io/Automation26/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-10-01T03:26:10Z",
+    "stargazerCount": 6,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "languages": [
+      {
+        "size": 320,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 4296,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 7831,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 2170,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 550,
+        "node": {
+          "name": "Dockerfile"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "cpp",
+    "description": "Try some data structures and C++ and algorithm",
+    "url": "https://github.com/namforge/cpp",
+    "homepageUrl": "https://namvamo123-glitch.github.io/cpp/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-09-15T20:28:31Z",
+    "stargazerCount": 3,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "languages": [
+      {
+        "size": 1849,
+        "node": {
+          "name": "C++"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "cpp",
+    "description": "Try some data structures and C++ and algorithm.",
+    "url": "https://github.com/offspring26/cpp",
+    "homepageUrl": "https://offspring26.github.io/cpp/",
+    "isArchived": false,
+    "isFork": true,
+    "isPrivate": false,
+    "updatedAt": "2026-09-15T20:24:27Z",
+    "stargazerCount": 4,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "languages": [
+      {
+        "size": 1849,
+        "node": {
+          "name": "C++"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "home-hviovn",
+    "description": "Landing page and docker package creation test ground.",
+    "url": "https://github.com/kreier/home-hviovn",
+    "homepageUrl": "https://kreier.github.io/home-hviovn/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-09-10T15:15:28Z",
+    "stargazerCount": 0,
+    "primaryLanguage": null,
+    "languages": [],
+    "repositoryTopics": [
+      {
+        "name": "docker"
+      },
+      {
+        "name": "docker-compose"
+      },
+      {
+        "name": "docker-image"
+      },
+      {
+        "name": "dockerfile"
+      }
+    ]
+  },
+  {
+    "name": "music-player-esp32",
+    "description": "Project by Tài with an ESP32, SD-Card reader, 3.5 audio output and OLED display.",
+    "url": "https://github.com/marie-curie-stem/music-player-esp32",
+    "homepageUrl": null,
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-09-17T05:41:42Z",
+    "stargazerCount": 1,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "languages": [
+      {
+        "size": 3685,
+        "node": {
+          "name": "C++"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "Tanix_TX3_mini",
+    "description": "Document a modern Linux on my old TV boxes.",
+    "url": "https://github.com/kreier/Tanix_TX3_mini",
+    "homepageUrl": "https://kreier.github.io/Tanix_TX3_mini/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-09-22T10:18:41Z",
+    "stargazerCount": 1,
+    "primaryLanguage": null,
+    "languages": [],
+    "repositoryTopics": []
+  },
+  {
+    "name": "solardata",
+    "description": "Analyze, clean and display collected solar data",
+    "url": "https://github.com/aisvn-data/solardata",
+    "homepageUrl": "https://aisvn-data.github.io/solardata/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-09-29T17:10:25Z",
+    "stargazerCount": 3,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "languages": [
+      {
+        "size": 347,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 256718,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 23394,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 3233,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 363977,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "solar",
+    "description": "Visualize solar data from different stations, provide statistical analysis.",
+    "url": "https://github.com/kreier/solar",
+    "homepageUrl": "https://kreier.github.io/solar/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-09-25T14:14:13Z",
+    "stargazerCount": 2,
+    "primaryLanguage": null,
+    "languages": [],
+    "repositoryTopics": []
+  },
+  {
+    "name": "solardata",
+    "description": "Analyze, clean and display collected solar data",
+    "url": "https://github.com/kreier/solardata",
+    "homepageUrl": "https://kreier.github.io/solardata/",
+    "isArchived": false,
+    "isFork": true,
+    "isPrivate": false,
+    "updatedAt": "2026-09-29T18:25:16Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "languages": [
+      {
+        "size": 256718,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 23394,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 347,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 3233,
+        "node": {
+          "name": "Makefile"
+        }
+      },
+      {
+        "size": 363977,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "yolo-uno",
+    "description": "Collection of student programs for the Yolo Uno from ohstem.vn",
+    "url": "https://github.com/kreier/yolo-uno",
+    "homepageUrl": "https://marie-curie-stem.github.io/yolo-uno/",
+    "isArchived": false,
+    "isFork": true,
+    "isPrivate": false,
+    "updatedAt": "2026-10-01T04:19:04Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "languages": [
+      {
+        "size": 342,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ],
     "repositoryTopics": []
   }
 ]

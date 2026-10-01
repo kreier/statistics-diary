@@ -5,7 +5,7 @@
 [![Update Version](https://github.com/kreier/statistics-diary/actions/workflows/update.yml/badge.svg)](https://github.com/kreier/statistics-diary/actions/workflows/update.yml)
 
 <!-- START:version -->
-Version: v2026.09.01.65
+Version: v2026.10.01.66
 <!-- END:version -->
 
 `statistics-diary` is a personal data collection and analysis project for bringing together material from multiple sources, extracting content and metadata, and generating statistics and other analytical views.
