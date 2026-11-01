@@ -119,14 +119,14 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-02-20T17:38:52Z",
+    "updatedAt": "2026-10-15T22:06:43Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "C++"
     },
     "languages": [
       {
-        "size": 69815,
+        "size": 86856,
         "node": {
           "name": "C++"
         }
@@ -173,18 +173,18 @@
     "name": "T110",
     "description": "Arduino robot with Bluetooth 4.0 control",
     "url": "https://github.com/kreier/T110",
-    "homepageUrl": null,
+    "homepageUrl": "https://kreier.github.io/T110/",
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2020-10-21T10:30:07Z",
+    "updatedAt": "2026-10-27T04:13:13Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "C++"
     },
     "languages": [
       {
-        "size": 1259,
+        "size": 2518,
         "node": {
           "name": "C++"
         }
@@ -287,7 +287,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-08-02T16:01:50Z",
+    "updatedAt": "2026-10-11T18:56:59Z",
     "stargazerCount": 13,
     "primaryLanguage": {
       "name": "C++"
@@ -316,14 +316,14 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2025-05-12T18:35:16Z",
+    "updatedAt": "2026-10-05T11:26:12Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "C++"
     },
     "languages": [
       {
-        "size": 179175,
+        "size": 203938,
         "node": {
           "name": "C++"
         }
@@ -332,6 +332,12 @@
         "size": 1447,
         "node": {
           "name": "PHP"
+        }
+      },
+      {
+        "size": 6207,
+        "node": {
+          "name": "C"
         }
       }
     ],
@@ -364,11 +370,11 @@
     "name": "407B",
     "description": "Exhibition of electronic experiments in front of Science Room 407B @ AISVN",
     "url": "https://github.com/kreier/407B",
-    "homepageUrl": null,
+    "homepageUrl": "https://kreier.github.io/407B/",
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2020-12-16T11:19:43Z",
+    "updatedAt": "2026-10-05T14:12:20Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "C++"
@@ -526,7 +532,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-04-23T04:28:12Z",
+    "updatedAt": "2026-10-29T01:37:08Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Jupyter Notebook"
@@ -561,7 +567,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2025-09-06T08:54:50Z",
+    "updatedAt": "2026-10-26T14:49:58Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "C++"
@@ -763,11 +769,11 @@
     "name": "asa2",
     "description": "Collaboratively design and program at AISVN",
     "url": "https://github.com/kreier/asa2",
-    "homepageUrl": null,
+    "homepageUrl": "https://kreier.github.io/asa2/",
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2020-11-12T11:48:39Z",
+    "updatedAt": "2026-10-26T00:16:14Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "C++"
@@ -780,7 +786,7 @@
         }
       },
       {
-        "size": 17659,
+        "size": 25813,
         "node": {
           "name": "C++"
         }
@@ -796,8 +802,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-09-17T12:33:30Z",
-    "stargazerCount": 60,
+    "updatedAt": "2026-10-02T11:49:15Z",
+    "stargazerCount": 61,
     "primaryLanguage": {
       "name": "C"
     },
@@ -1447,8 +1453,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-04-09T06:20:57Z",
-    "stargazerCount": 30,
+    "updatedAt": "2026-10-16T07:39:41Z",
+    "stargazerCount": 31,
     "primaryLanguage": {
       "name": "C"
     },
@@ -2546,7 +2552,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-05-17T01:48:45Z",
+    "updatedAt": "2026-10-12T17:16:32Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
@@ -2559,7 +2565,7 @@
         }
       },
       {
-        "size": 522090,
+        "size": 528904,
         "node": {
           "name": "Python"
         }
@@ -2571,7 +2577,7 @@
         }
       },
       {
-        "size": 220798,
+        "size": 207103,
         "node": {
           "name": "C++"
         }
@@ -3634,8 +3640,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-09-24T18:13:02Z",
-    "stargazerCount": 9,
+    "updatedAt": "2026-11-01T03:54:17Z",
+    "stargazerCount": 11,
     "primaryLanguage": {
       "name": "Python"
     },
@@ -3647,7 +3653,7 @@
         }
       },
       {
-        "size": 1340309,
+        "size": 1340386,
         "node": {
           "name": "Python"
         }
@@ -4170,8 +4176,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-09-25T00:58:39Z",
-    "stargazerCount": 5,
+    "updatedAt": "2026-10-03T04:45:48Z",
+    "stargazerCount": 7,
     "primaryLanguage": {
       "name": "Python"
     },
@@ -4684,8 +4690,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-09-28T18:23:25Z",
-    "stargazerCount": 40,
+    "updatedAt": "2026-10-13T18:58:54Z",
+    "stargazerCount": 44,
     "primaryLanguage": {
       "name": "C++"
     },
@@ -4947,8 +4953,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-09-25T10:35:07Z",
-    "stargazerCount": 6,
+    "updatedAt": "2026-10-03T04:46:07Z",
+    "stargazerCount": 8,
     "primaryLanguage": {
       "name": "Python"
     },
@@ -5070,8 +5076,8 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-09-26T22:31:30Z",
-    "stargazerCount": 32,
+    "updatedAt": "2026-10-27T16:43:02Z",
+    "stargazerCount": 35,
     "primaryLanguage": {
       "name": "Cuda"
     },
@@ -5304,16 +5310,22 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2025-05-10T07:18:05Z",
+    "updatedAt": "2026-10-22T05:00:29Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
     },
     "languages": [
       {
-        "size": 4973,
+        "size": 14255,
         "node": {
           "name": "Python"
+        }
+      },
+      {
+        "size": 14022,
+        "node": {
+          "name": "C++"
         }
       }
     ],
@@ -5661,7 +5673,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-09-01T03:50:04Z",
+    "updatedAt": "2026-10-01T04:27:37Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
@@ -6517,10 +6529,10 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-10-01T03:01:01Z",
-    "stargazerCount": 0,
+    "updatedAt": "2026-10-01T21:45:09Z",
+    "stargazerCount": 1,
     "primaryLanguage": {
-      "name": "Python"
+      "name": "Astro"
     },
     "languages": [
       {
@@ -6533,6 +6545,12 @@
         "size": 171,
         "node": {
           "name": "JavaScript"
+        }
+      },
+      {
+        "size": 3575,
+        "node": {
+          "name": "Astro"
         }
       }
     ],
@@ -6683,7 +6701,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-10-01T03:26:10Z",
+    "updatedAt": "2026-10-31T09:31:59Z",
     "stargazerCount": 6,
     "primaryLanguage": {
       "name": "JavaScript"
@@ -6840,7 +6858,7 @@
     "isArchived": false,
     "isFork": false,
     "isPrivate": false,
-    "updatedAt": "2026-09-29T17:10:25Z",
+    "updatedAt": "2026-10-03T07:43:53Z",
     "stargazerCount": 3,
     "primaryLanguage": {
       "name": "Python"
@@ -6853,13 +6871,13 @@
         }
       },
       {
-        "size": 256718,
+        "size": 259384,
         "node": {
           "name": "JavaScript"
         }
       },
       {
-        "size": 23394,
+        "size": 25694,
         "node": {
           "name": "CSS"
         }
@@ -6871,7 +6889,7 @@
         }
       },
       {
-        "size": 363977,
+        "size": 364286,
         "node": {
           "name": "Python"
         }
@@ -6901,20 +6919,20 @@
     "isArchived": false,
     "isFork": true,
     "isPrivate": false,
-    "updatedAt": "2026-09-29T18:25:16Z",
+    "updatedAt": "2026-10-03T09:25:43Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
     },
     "languages": [
       {
-        "size": 256718,
+        "size": 259384,
         "node": {
           "name": "JavaScript"
         }
       },
       {
-        "size": 23394,
+        "size": 25694,
         "node": {
           "name": "CSS"
         }
@@ -6932,7 +6950,7 @@
         }
       },
       {
-        "size": 363977,
+        "size": 364286,
         "node": {
           "name": "Python"
         }
@@ -6944,20 +6962,543 @@
     "name": "yolo-uno",
     "description": "Collection of student programs for the Yolo Uno from ohstem.vn",
     "url": "https://github.com/kreier/yolo-uno",
-    "homepageUrl": "https://marie-curie-stem.github.io/yolo-uno/",
+    "homepageUrl": "https://kreier.github.io/yolo-uno/",
     "isArchived": false,
     "isFork": true,
     "isPrivate": false,
-    "updatedAt": "2026-10-01T04:19:04Z",
+    "updatedAt": "2026-10-15T18:31:37Z",
     "stargazerCount": 0,
     "primaryLanguage": {
       "name": "Python"
     },
     "languages": [
       {
-        "size": 342,
+        "size": 708072,
         "node": {
           "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": [
+      {
+        "name": "ohstem"
+      },
+      {
+        "name": "yolo-uno"
+      }
+    ]
+  },
+  {
+    "name": "Scratch-",
+    "description": "This is for Scratch",
+    "url": "https://github.com/Renartx/Scratch-",
+    "homepageUrl": "https://renartx.github.io/Scratch-/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-10-11T13:47:40Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "languages": [
+      {
+        "size": 808,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "roundtrip",
+    "description": "A random monthly execution of GitHub Actions on repositories to determine and visualize the process time.",
+    "url": "https://github.com/kreier/roundtrip",
+    "homepageUrl": "https://kreier.github.io/roundtrip/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-10-07T11:58:23Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "languages": [
+      {
+        "size": 542,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 262,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 39738,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 32741,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 236,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "penta",
+    "description": "Documentation of setup and performance of my Penta-GPU server.",
+    "url": "https://github.com/kreier/penta",
+    "homepageUrl": "https://kreier.github.io/penta/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-10-07T05:40:45Z",
+    "stargazerCount": 1,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "languages": [
+      {
+        "size": 297,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 33997,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 9885,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ],
+    "repositoryTopics": [
+      {
+        "name": "nvidia-gpu"
+      }
+    ]
+  },
+  {
+    "name": "curator",
+    "description": "Curator app or package in docker to manage sources of information.",
+    "url": "https://github.com/kreier/curator",
+    "homepageUrl": null,
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-10-07T04:04:03Z",
+    "stargazerCount": 0,
+    "primaryLanguage": null,
+    "languages": [],
+    "repositoryTopics": []
+  },
+  {
+    "name": "maintenance",
+    "description": "Manage maintenance of facilities, collect data and archive documents.",
+    "url": "https://github.com/kreier/maintenance",
+    "homepageUrl": "https://kreier.github.io/maintenance/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-10-07T16:26:37Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "languages": [
+      {
+        "size": 593,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 480,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 145934,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 176,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "googletrans-curl",
+    "description": "(unofficial) Googletrans: Free and Unlimited Google translate API for Python. Translates totally free of charge.",
+    "url": "https://github.com/kreier/googletrans-curl",
+    "homepageUrl": "https://pypi.org/project/googletrans-curl/",
+    "isArchived": false,
+    "isFork": true,
+    "isPrivate": false,
+    "updatedAt": "2026-10-29T15:58:41Z",
+    "stargazerCount": 9,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "languages": [
+      {
+        "size": 73158,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "OpenTPU-Benchmark",
+    "description": "A small OpenCL or TPU benchmark program to measure peak TPU/GPU/CPU performance.",
+    "url": "https://github.com/kreier/OpenTPU-Benchmark",
+    "homepageUrl": "https://kreier.github.io/OpenTPU-Benchmark/",
+    "isArchived": false,
+    "isFork": true,
+    "isPrivate": false,
+    "updatedAt": "2026-10-10T18:06:58Z",
+    "stargazerCount": 1,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "languages": [
+      {
+        "size": 5287,
+        "node": {
+          "name": "Shell"
+        }
+      },
+      {
+        "size": 91123,
+        "node": {
+          "name": "C++"
+        }
+      },
+      {
+        "size": 4553,
+        "node": {
+          "name": "C"
+        }
+      },
+      {
+        "size": 61090,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "Scratch-Marie-Curie",
+    "description": "This is for Scratch",
+    "url": "https://github.com/kreier/Scratch-Marie-Curie",
+    "homepageUrl": "https://kreier.github.io/Scratch-Marie-Curie/",
+    "isArchived": false,
+    "isFork": true,
+    "isPrivate": false,
+    "updatedAt": "2026-10-11T13:50:46Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "languages": [
+      {
+        "size": 808,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "micro-repl",
+    "description": "A MicroPython IDE for Mobile, Desktop and the Web",
+    "url": "https://github.com/kreier/micro-repl",
+    "homepageUrl": "https://kreier.github.io/micro-repl/",
+    "isArchived": false,
+    "isFork": true,
+    "isPrivate": false,
+    "updatedAt": "2026-10-12T17:32:43Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "Kotlin"
+    },
+    "languages": [
+      {
+        "size": 751,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 393720,
+        "node": {
+          "name": "Kotlin"
+        }
+      },
+      {
+        "size": 996,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 1801,
+        "node": {
+          "name": "HTML"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "nvr",
+    "description": "List of NVR (Network Video Recorders) with detailled specs available here in Vietnam.",
+    "url": "https://github.com/kreier/nvr",
+    "homepageUrl": "https://kreier.github.io/nvr/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-10-26T07:37:23Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "languages": [
+      {
+        "size": 683,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 118513,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 571,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "CARHALFWHEEL",
+    "description": "Chúng tôi làm xe ba bánh trên Arduino ide",
+    "url": "https://github.com/phuc1534/CARHALFWHEEL",
+    "homepageUrl": "https://phuc1534.github.io/CARHALFWHEEL/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-10-27T01:16:13Z",
+    "stargazerCount": 2,
+    "primaryLanguage": {
+      "name": "C++"
+    },
+    "languages": [
+      {
+        "size": 11285,
+        "node": {
+          "name": "C++"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "pks",
+    "description": "Personal Knowledge System - a local second brain.",
+    "url": "https://github.com/kreier/pks",
+    "homepageUrl": "https://kreier.github.io/pks/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-10-18T01:29:46Z",
+    "stargazerCount": 0,
+    "primaryLanguage": null,
+    "languages": [],
+    "repositoryTopics": []
+  },
+  {
+    "name": "T-HMI",
+    "description": "Programs for the Lilygo T-HMI with ESP32-S3 and 320x240 display.",
+    "url": "https://github.com/kreier/T-HMI",
+    "homepageUrl": "https://kreier.github.io/T-HMI/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-10-19T14:24:41Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "languages": [
+      {
+        "size": 12020,
+        "node": {
+          "name": "Python"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "ai",
+    "description": "Some examples about what AI is, how it developed and to try out yourself in the browser.",
+    "url": "https://github.com/kreier/ai",
+    "homepageUrl": "https://kreier.github.io/ai/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-10-27T08:23:07Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "languages": [
+      {
+        "size": 1924,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 44331,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 295,
+        "node": {
+          "name": "CSS"
+        }
+      },
+      {
+        "size": 78736,
+        "node": {
+          "name": "TypeScript"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "camera-project-3D",
+    "description": "Develop a system to use the STEVAL-VL53L9 ToF 3D LIDAR camera to guide blind people.",
+    "url": "https://github.com/kreier/camera-project-3D",
+    "homepageUrl": "https://kreier.github.io/camera-project-3D/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-10-31T01:22:08Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "languages": [
+      {
+        "size": 3669,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 58260,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 11924,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 13958,
+        "node": {
+          "name": "CSS"
+        }
+      }
+    ],
+    "repositoryTopics": []
+  },
+  {
+    "name": "review1",
+    "description": "Framework to have AI review and analyze repositories and publish a report.",
+    "url": "https://github.com/kreier/review1",
+    "homepageUrl": "https://kreier.github.io/review1/",
+    "isArchived": false,
+    "isFork": false,
+    "isPrivate": false,
+    "updatedAt": "2026-11-01T02:50:26Z",
+    "stargazerCount": 0,
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "languages": [
+      {
+        "size": 2348025,
+        "node": {
+          "name": "HTML"
+        }
+      },
+      {
+        "size": 90049,
+        "node": {
+          "name": "Python"
+        }
+      },
+      {
+        "size": 23869,
+        "node": {
+          "name": "JavaScript"
+        }
+      },
+      {
+        "size": 80397,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 1932,
+        "node": {
+          "name": "CSS"
         }
       }
     ],
